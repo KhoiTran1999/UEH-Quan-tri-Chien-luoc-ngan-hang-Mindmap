@@ -1,0 +1,795 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Buổi 3.1: Các hoạt động kinh doanh chủ yếu của Ngân hàng đầu tư</title><meta name="data-notion-page-icon" content="✍️"/><link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%E2%9C%8D%EF%B8%8F%3C%2Ftext%3E%3C%2Fsvg%3E"/><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+/* For default-background callouts, render the border outline. */
+.callout.block-color-default_background {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+/*
+ * Toggles and callouts hold arbitrary content, so they can easily be taller
+ * than a page. They must stay breakable: avoiding breaks inside them makes
+ * Chromium push the whole block onto the next page, which leaves the previous
+ * page mostly empty before every long toggle.
+ */
+details,
+aside {
+	margin: 1.25em 0;
+}
+
+/* Keep a toggle's title on the same page as the start of its content. */
+summary {
+	page-break-after: avoid;
+	break-after: avoid;
+}
+
+/*
+ * Toggle headings render as <h1/h2/h3 style="display:inline-block"> inside
+ * <summary>. Without this reset, the heading's margin-top pushes it below the
+ * ::marker (▼), so the triangle and the title appear on separate lines.
+ */
+summary h1,
+summary h2,
+summary h3,
+summary h4 {
+	margin-top: 0;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+
+	table.collection-content {
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	table.collection-content th,
+	table.collection-content td {
+		overflow-wrap: anywhere;
+	}
+
+	table.collection-content td > .user,
+	table.collection-content td > time {
+		white-space: pre-wrap;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content-wrapper {
+	overflow-x: auto;
+}
+
+@media only print {
+	.collection-content-wrapper {
+		overflow-x: visible;
+	}
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	gap: 46px;
+}
+
+.column {
+	min-width: 0;
+	overflow: hidden;
+}
+
+.column > *:first-child {
+	margin-top: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding-inline: 0.125rem;
+	padding-block: 0.375rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+table {
+	border-collapse: collapse;
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol.numbered-list.numbered-list-digits-2 {
+	padding-inline-start: 2em;
+}
+
+ol.numbered-list.numbered-list-digits-3plus {
+	padding-inline-start: 2.4em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+/*
+ * Render emoji icons using a ::before pseudo-element to keep the glyph
+ * out of the DOM textContent traversal. This avoids double-rendering icons
+ * in callouts and page titles.
+ * NOTE(slim/html-export-pseudo-icons): I can't tagref this because it will
+ * flag as a duplicate tag after codegen.
+ */
+.icon[data-emoji]::before {
+	content: attr(data-emoji);
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	margin-right: 0.4em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.tab {
+	margin: 1.25em 0;
+	padding-inline: 1rem;
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="3c7a5eb5-b9bd-8072-9bed-c7773d0c6f2c" class="page sans" data-notion-page-icon="✍️"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1558481795-7f0a7c906f5e?ixlib=rb-4.1.0&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon" data-emoji="✍️"></span></div><h1 class="page-title" dir="auto">Buổi 3.1: Các hoạt động kinh doanh chủ yếu của Ngân hàng đầu tư</h1><p class="page-description" dir="auto"></p><table class="properties"><tbody><tr class="property-row property-row-select"><th><span class="icon property-icon"><img src="https://app.notion.com/icons/arrow-circle-down_gray.svg" style="width:14px;height:14px;display:block"/></span>Loại ghi chép</th><td><span class="selected-value select-value-color-brown">Lý thuyết trên lớp</span></td></tr><tr class="property-row property-row-select"><th><span class="icon property-icon"><img src="https://app.notion.com/icons/arrow-circle-down_gray.svg" style="width:14px;height:14px;display:block"/></span>Độ hiểu bài</th><td><span class="selected-value select-value-color-red">🔴 Cần xem lại</span></td></tr><tr class="property-row property-row-relation"><th><span class="icon property-icon"><img src="https://app.notion.com/icons/arrow-northeast_gray.svg" style="width:14px;height:14px;display:block"/></span>🔹 DB Học Phần - UEH</th><td><a href="https://app.notion.com/p/Qu-n-tr-v-chi-n-l-c-ng-n-h-ng-2eba5eb5b9bd8117b209c28eb79d4076?pvs=21" data-notion-page-id="2eba5eb5-b9bd-8117-b209-c28eb79d4076" data-notion-space-id="90ba5eb5-b9bd-81b3-839a-00030c9f2a5d"><span class="icon" data-emoji="🔹"></span>Quản trị và chiến lược ngân hàng</a></td></tr><tr class="property-row property-row-relation"><th><span class="icon property-icon"><img src="https://app.notion.com/icons/arrow-northeast_gray.svg" style="width:14px;height:14px;display:block"/></span>📍DB Chương</th><td><a href="https://app.notion.com/p/Ch-ng-2b-C-c-ho-t-ng-kinh-doanh-ch-y-u-c-a-Ng-n-h-ng-u-t-3c7a5eb5b9bd80b4b39bc61e4a8eac9a?pvs=21" data-notion-page-id="3c7a5eb5-b9bd-80b4-b39b-c61e4a8eac9a" data-notion-space-id="90ba5eb5-b9bd-81b3-839a-00030c9f2a5d"><span class="icon" data-emoji="📍"></span>Chương 2b: Các hoạt động kinh doanh chủ yếu của Ngân hàng đầu tư</a></td></tr><tr class="property-row property-row-last_edited_time"><th><span class="icon property-icon"><img src="https://app.notion.com/icons/clock_gray.svg" style="width:14px;height:14px;display:block"/></span>Last edited time</th><td><time datetime="2026-09-23T21:22">23 tháng 9, 2026 21:22</time></td></tr></tbody></table></header><div class="page-body"><hr id="3c7a5eb5-b9bd-80b2-b41c-c3320e4deef1" dir="auto"/><figure id="3d4a5eb5-b9bd-8055-8949-c0e50659ba2d" class="image" data-notion-image="image.png" dir="ltr"><a href="image.png"><img style="width:2752px" src="image.png"/></a></figure><details id="a62a5eb5-b9bd-8378-a333-019dc84d6345" open="" class="block-color-gray_background toggle" data-notion-highlight="gray_background" dir="auto"><summary><strong>Phần dẫn dắt:</strong></summary><div class="indented"><p id="3d4a5eb5-b9bd-80c6-812c-cde975d5bdc9" class="" dir="auto">Khác với ngân hàng thương mại hoạt động dựa trên huy động tiền gửi để cấp tín dụng, ngân hàng đầu tư là định chế <strong>không nhận tiền gửi</strong>. Thay vì cho vay trực tiếp, ngân hàng đầu tư đóng vai trò <strong>trung gian kết nối</strong> giữa chủ thể phát hành cần huy động vốn và các nhà đầu tư trên thị trường tài chính.</p><p id="3d4a5eb5-b9bd-8023-9ab2-d09849475115" class="" dir="auto">Bước vào <strong>Chương 2b</strong>, chúng ta sẽ đi sâu vào 4 mảng hoạt động cốt lõi thay thế cho mô hình tiền gửi - tín dụng truyền thống:</p><ul id="3d4a5eb5-b9bd-80c9-9bfe-d44fd3bbf1db" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Bảo lãnh phát hành (Underwriting):</strong> Giúp doanh nghiệp huy động vốn qua cổ phiếu, trái phiếu.</li></ul><ul id="3d4a5eb5-b9bd-806b-b5fe-c4a4836efb1e" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Tư vấn tài chính:</strong> Cung cấp giải pháp mua bán - sáp nhập (M&amp;A) và tái cấu trúc.</li></ul><ul id="3d4a5eb5-b9bd-80e7-86a9-fd828c206864" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Môi giới &amp; Tự doanh:</strong> Khớp lệnh cho khách hàng và trực tiếp giao dịch trên tài khoản của ngân hàng.</li></ul><ul id="3d4a5eb5-b9bd-80d7-b7f0-f0a6fde185e2" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Quản lý tài sản:</strong> Thành lập và quản lý các danh mục đầu tư, quỹ tương hỗ, ETF và quỹ phòng hộ.</li></ul></div></details><h2 id="3d4a5eb5-b9bd-80a4-b22e-f08d67cf7520" class="" dir="auto"><strong>1. Khái niệm và Đặc điểm cốt lõi của Ngân hàng Đầu tư (NHĐT)</strong></h2><blockquote id="3d4a5eb5-b9bd-807c-ac5b-e2f2662a7c44" class="" dir="auto"><p id="3d4a5eb5-b9bd-80cb-824a-f6b1682e176e" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>1. Khái niệm Ngân hàng Đầu tư</strong><div class="indented"><ul id="3d4a5eb5-b9bd-8061-bfb7-c8db92eeaa88" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Định nghĩa cơ bản:</strong> Ngân hàng đầu tư là một <strong>định chế tài chính trung gian</strong> chuyên cung cấp các dịch vụ tài chính phức tạp và đa dạng cho các doanh nghiệp lớn, chính phủ và các tổ chức tài chính khác. Các dịch vụ cốt lõi này bao gồm: bảo lãnh phát hành chứng khoán, tư vấn tài chính (đặc biệt là M&amp;A và tái cấu trúc), môi giới &amp; tự doanh, và quản lý tài sản.</li></ul><ul id="3d4a5eb5-b9bd-805c-8cb5-e1e4a399411b" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Phân loại định chế:</strong> Trên thị trường tài chính, NHĐT được xếp vào nhóm <strong>định chế tài chính phi nhận tiền gửi</strong> (Non-depository financial institutions). Điều này có nghĩa là họ không thực hiện chức năng nhận tiền gửi truyền thống của công chúng để cấp tín dụng trực tiếp như các ngân hàng thương mại (NHTM).</li></ul></div></p></blockquote><blockquote id="3d4a5eb5-b9bd-80ce-b50d-d429e5cc793a" class="" dir="auto"><p id="3d4a5eb5-b9bd-80a9-a64f-d31d917d5f9a" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>2. Định nghĩa loại trừ (Negative Definition) của Giuliano Iannotta</strong><div class="indented"><p id="3d4a5eb5-b9bd-8056-9eb0-fae1ec74a417" class="" dir="auto">Trong giới học thuật và thực tiễn, có một định nghĩa rất nổi tiếng và mang tính bản chất của Giáo sư Giuliano Iannotta được đưa vào bài giảng:</p><p id="3d4a5eb5-b9bd-809f-b75e-d128b3d97727" class="" dir="auto"><em>&quot;Investment banking is the banking activity not classifiable as commercial banking.&quot;</em> <em>(Tạm dịch: Hoạt động ngân hàng đầu tư là tất cả các hoạt động ngân hàng không thể phân loại là hoạt động ngân hàng thương mại).</em></p><ul id="3d4a5eb5-b9bd-8014-acfa-ff4c3f1f117b" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Ý nghĩa học thuật:</strong> Định nghĩa này phản ánh tính đa dạng, linh hoạt và không ngừng biến đổi của NHĐT. Bản chất của thị trường tài chính luôn vận động; bất kỳ giao dịch, sản phẩm hay giải pháp tài chính mới nào xuất hiện để giải quyết nhu cầu của doanh nghiệp lớn mà không thuộc chức năng nhận tiền gửi/cho vay truyền thống của NHTM thì đều được xếp vào phạm vi của hoạt động ngân hàng đầu tư.</li></ul></div></p></blockquote><blockquote id="3d4a5eb5-b9bd-80b4-aa2b-d86a4368b1d5" class="" dir="auto"><p id="3d4a5eb5-b9bd-8046-82f0-c6eff8f6ac64" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>3. Triết lý hoạt động: Sản phẩm &quot;May sẵn&quot; (Standardized) vs. &quot;May đo&quot; (Customized)</strong><div class="indented"><p id="3d4a5eb5-b9bd-8040-8f19-d37869c33cfa" class="" dir="auto">Để làm nổi bật sự khác biệt về khái niệm giữa NHTM và NHĐT, bài giảng của giảng viên đã đưa ra một hình ảnh so sánh rất trực quan về sản phẩm:</p><ul id="3d4a5eb5-b9bd-8015-b506-ee877ec36ebb" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>NHTM - Hàng &quot;May sẵn&quot; (Standardized):</strong> Hoạt động của NHTM chủ yếu dựa trên các sản phẩm phổ thông, đại trà và công nghiệp hóa (như các gói gửi tiết kiệm kỳ hạn, các gói vay tiêu chuẩn). Khách hàng cá nhân hoặc doanh nghiệp nhỏ tìm đến NHTM và lựa chọn những sản phẩm đã được thiết kế khung sẵn có phù hợp nhất với mình.</li></ul><ul id="3d4a5eb5-b9bd-8004-9acc-f44712001a2c" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>NHĐT - Hàng &quot;May đo&quot; (Customized):</strong> Ngược lại, hoạt động của NHĐT đại diện cho phân khúc sản phẩm &quot;may đo&quot; cao cấp. Do đối tượng khách hàng của NHĐT là các tập đoàn lớn hoặc các tổ chức tài chính với những bài toán cấu trúc vốn cực kỳ phức tạp, NHĐT không thể dùng một sản phẩm đại trà sẵn có. Họ phải <strong>thiết kế riêng biệt, cá nhân hóa (customized)</strong> từng giao dịch phát hành, từng phương án M&amp;A hay các công cụ tài chính phái sinh phức tạp để thỏa mãn chính xác nhu cầu đặc thù của từng khách hàng.</li></ul></div></p></blockquote><blockquote id="3d4a5eb5-b9bd-80c3-8d8d-fb37a0b8dfe4" class="" dir="auto"><p id="3d4a5eb5-b9bd-80d5-a26e-dff1da956631" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>4. Các đặc điểm hoạt động cốt lõi của NHĐT</strong><div class="indented"><p id="3d4a5eb5-b9bd-8069-bd9b-f3fef3bc459f" class="" dir="auto">NHĐT vận hành dựa trên các đặc điểm mang tính nền tảng sau:</p><ul id="3d4a5eb5-b9bd-8074-989b-f419992976e0" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Là một doanh nghiệp kinh doanh vì lợi nhuận:</strong> NHĐT hoạt động hoàn toàn như một thực thể kinh tế tư nhân với mục tiêu tối đa hóa giá trị cho cổ đông.</li></ul><ul id="3d4a5eb5-b9bd-8003-a438-f43261b17359" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Không nhận tiền gửi truyền thống:</strong> Khác với NHTM thu hút nguồn vốn giá rẻ từ tiền gửi tiết kiệm đại chúng, NHĐT huy động vốn kinh doanh bằng cách <strong>phát hành chứng khoán của chính mình</strong> (bao gồm phát hành cổ phiếu cho cổ đông và phát hành các công cụ nợ/trái phiếu hoặc đi vay trên thị trường tài chính bán buôn).</li></ul><ul id="3d4a5eb5-b9bd-8022-b5ed-f8b14a288606" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Hoạt động trung gian thuần túy:</strong> NHĐT không trực tiếp gánh chịu rủi ro tín dụng của khoản vay bằng nguồn vốn tự có của mình như NHTM. Vai trò cốt lõi của họ là <strong>kết nối trực tiếp</strong> giữa chủ thể cần vốn (bên phát hành chứng khoán) và chủ thể thừa vốn (nhà đầu tư). Nhà đầu tư sẽ tự đưa ra quyết định dựa trên các thông tin được NHĐT tư vấn và tự chịu trách nhiệm rủi ro trên đồng vốn của mình.</li></ul><ul id="3d4a5eb5-b9bd-80ef-9dba-e14f194ef1c1" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Vận hành bằng &quot;Danh tiếng&quot; (Reputation):</strong> Vì đóng vai trò trung gian tư vấn và bảo chứng cho các thương vụ hàng triệu hay hàng tỷ USD, <strong>danh tiếng của NHĐT chính là tài sản quý giá nhất</strong>. Nếu NHĐT định giá sai hoặc tư vấn thiếu khách quan, họ có thể không mất đi nguồn vốn cho vay trực tiếp nhưng sẽ bị tổn hại danh tiếng nghiêm trọng, dẫn đến việc không thể thu hút khách hàng trong tương lai.</li></ul></div></p></blockquote><h2 id="3d4a5eb5-b9bd-804e-9b4d-f8739da9654b" class="" dir="auto"><strong>2. So sánh và Phân biệt: Ngân hàng Thương mại (NHTM) vs. Ngân hàng Đầu tư (NHĐT) </strong></h2><blockquote id="3d4a5eb5-b9bd-8000-85cc-f7988a84efff" class="" dir="auto"><p id="3d4a5eb5-b9bd-8071-a8fa-c40b44e523d7" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>1. Vai trò Trung gian Tài chính (Financial Intermediation)</strong><div class="indented"><ul id="3d4a5eb5-b9bd-8060-9caa-d5fa0f7e8a1b" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Ngân hàng Thương mại (NHTM):</strong> Đóng vai trò là trung gian tài chính trực tiếp kết nối giữa <strong>người gửi tiền</strong> và <strong>người đi vay</strong>. Hoạt động chính của NHTM xoay quanh bộ ba chức năng truyền thống: <strong>nhận tiền gửi, cấp tín dụng (cho vay) và cung ứng dịch vụ thanh toán</strong>.</li></ul><ul id="3d4a5eb5-b9bd-8023-86df-faf2997bd586" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Ngân hàng Đầu tư (NHĐT):</strong> Đóng vai trò là trung gian kết nối giữa <strong>chủ thể phát hành chứng khoán</strong> (doanh nghiệp cần vốn) và <strong>chủ thể đầu tư</strong> (nhà đầu tư nhàn rỗi). NHĐT không đứng giữa người gửi tiền và người vay tiền như NHTM mà đứng ra tổ chức, thu xếp để dòng vốn chuyển dịch trực tiếp từ nhà đầu tư sang tổ chức phát hành.</li></ul></div></p></blockquote><blockquote id="3d4a5eb5-b9bd-802a-a1fe-d9ba0702e875" class="" dir="auto"><p id="3d4a5eb5-b9bd-80fa-8bd3-c850e6d84469" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>2. Cơ chế Vận hành và Phân bổ Rủi ro (Risk Allocation &amp; Funding)</strong><div class="indented"><ul id="3d4a5eb5-b9bd-806c-95de-c83d98e32f23" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>NHTM - Cho vay bằng chính nguồn vốn huy động:</strong> NHTM tiếp nhận tiền gửi từ công chúng và dùng chính dòng vốn đó để cho vay. Do đó, NHTM phải <strong>trực tiếp gánh chịu rủi ro tín dụng</strong> và rủi ro thanh khoản nếu người đi vay vỡ nợ hoặc người gửi tiền đồng loạt rút vốn.</li></ul><ul id="3d4a5eb5-b9bd-8059-8b66-e72be7c6ebd8" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>NHĐT - Tư vấn, kết nối và chịu rủi ro danh tiếng:</strong> NHĐT không trực tiếp cho vay mà chỉ đóng vai trò <strong>kết nối và tư vấn</strong>. Các nhà đầu tư mua chứng khoán do NHĐT thu xếp sẽ tự đưa ra quyết định và tự chịu trách nhiệm trực tiếp đối với rủi ro trên đồng vốn của mình. Dù không chịu rủi ro tín dụng trực tiếp như NHTM, NHĐT phải bảo vệ <strong>danh tiếng</strong> (reputation) của mình. Nếu tư vấn hoặc định giá sai lệch, danh tiếng bị tổn hại sẽ khiến họ mất đi khách hàng và các thương vụ trong tương lai.</li></ul></div></p></blockquote><blockquote id="3d4a5eb5-b9bd-804d-8636-dad06875e918" class="" dir="auto"><p id="3d4a5eb5-b9bd-804e-b71a-fad2755c9f62" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>3. Cơ cấu Doanh thu và Bảng cân đối kế toán (Revenue &amp; Balance Sheet)</strong><div class="indented"><ul id="3d4a5eb5-b9bd-807b-9a7a-e4f1dbb2705e" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>NHTM - Phụ thuộc vào Thu nhập lãi thuần (NII):</strong> Nguồn thu cốt lõi của các NHTM truyền thống phụ thuộc rất lớn vào <strong>Thu nhập lãi thuần (Net Interest Income - NII)</strong>. NHTM tận dụng lợi thế huy động nguồn tiền gửi giá rẻ từ công chúng (với chi phí sử dụng vốn thấp nhất thị trường) để cho vay lấy lãi.</li></ul><ul id="3d4a5eb5-b9bd-80ef-875a-f279ac89eef2" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>NHĐT - Tự doanh và Phí dịch vụ (Fees &amp; Trading Income):</strong> NHĐT ít nhạy cảm hơn với biến động NII do tỷ trọng đóng góp của NII rất thấp. Doanh thu của NHĐT tập trung chủ yếu vào <strong>phí dịch vụ</strong> (từ bảo lãnh phát hành, tư vấn tài chính, tư vấn M&amp;A, quản lý tài sản) và <strong>thu nhập từ hoạt động tự doanh, giao dịch tài chính</strong> (trading income). Bảng cân đối kế toán của NHĐT không chứa nhiều các khoản cho vay truyền thống mà tập trung vào tài sản tài chính và các công cụ giao dịch.</li></ul></div></p></blockquote><blockquote id="3d4a5eb5-b9bd-807f-a4b7-f23937845a1a" class="" dir="auto"><p id="3d4a5eb5-b9bd-80ad-988d-cd52460dce86" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>4. Khẩu vị và Mức độ Chấp nhận Rủi ro (Risk Appetite)</strong><div class="indented"><ul id="3d4a5eb5-b9bd-80cd-b858-e32edc47354f" class="bulleted-list" dir="auto"><li style="list-style-type:disc">Mức độ chấp nhận rủi ro giữa hai mô hình ngân hàng này là <strong>hoàn toàn khác biệt</strong>.</li></ul><ul id="3d4a5eb5-b9bd-80b3-9ed3-fcd90d546882" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>NHTM</strong> có khẩu vị rủi ro thấp do chịu ràng buộc ngặt nghèo bởi các chỉ số an toàn vốn của cơ quan quản lý nhằm bảo vệ người gửi tiền.</li></ul><ul id="3d4a5eb5-b9bd-804b-813a-f395c45cb39f" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>NHĐT</strong> có mức độ chấp nhận rủi ro cao hơn rất nhiều. Họ sẵn sàng tham gia vào các hoạt động mang tính đầu cơ, tự doanh các sản phẩm phái sinh hoặc bảo lãnh phát hành cam kết chắc chắn để tìm kiếm mức lợi nhuận vượt trội.</li></ul></div></p></blockquote><h2 id="3d4a5eb5-b9bd-80bb-98fc-e52054fdf74f" class="" dir="auto"><strong>3. Các Hoạt động Kinh doanh Chủ yếu của Ngân hàng Đầu tư </strong></h2><p id="3d4a5eb5-b9bd-80b9-a445-f14cc2ce3ec6" class="" dir="auto">Hoạt động kinh doanh của <strong>NHĐT </strong>hoàn toàn khác biệt với <strong>NHTM </strong>(vốn tập trung vào nhận tiền gửi, cấp tín dụng và thanh toán). <strong>NHĐT </strong>tập trung vào các dịch vụ tài chính phức tạp và chuyên biệt trên thị trường vốn:</p><blockquote id="3d4a5eb5-b9bd-8021-8a26-dafe9bb50066" class="" dir="auto"><p id="3d4a5eb5-b9bd-8002-b177-caa154f52444" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>1. Dịch vụ Bảo lãnh phát hành (Securities Underwriting)</strong><div class="indented"><p id="3d4a5eb5-b9bd-80c1-a94a-d3916a35b420" class="" dir="auto">Đây là hoạt động cốt lõi hàng đầu của NHĐT, trong đó ngân hàng đóng vai trò giúp đỡ các doanh nghiệp hoặc chính phủ huy động vốn bằng cách phát hành chứng khoán (bao gồm cả <strong>chứng khoán nợ</strong> như trái phiếu và <strong>chứng khoán vốn</strong> như cổ phiếu) trên thị trường tài chính.</p><ul id="3d4a5eb5-b9bd-8031-8f6b-ec354da406e0" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>💡 Giá trị gia tăng từ góc nhìn bài giảng:</strong> Doanh nghiệp lớn (như Vinamilk) hoàn toàn có thể tự phát hành chứng khoán, nhưng họ vẫn chọn thông qua NHĐT. Lý do là việc thuyết phục nhà đầu tư &quot;xuống tiền&quot; mua cổ phiếu/trái phiếu là việc vô cùng khó khăn. NHĐT mang lại giá trị vượt trội nhờ vào ba yếu tố nghệ thuật:<ol type="1" id="3d4a5eb5-b9bd-8034-8706-ec6e33bd4c17" class="numbered-list" start="1" dir="auto"><li><strong>Mạng lưới phân phối (Network):</strong> Khả năng tiếp cận danh sách các nhà đầu tư tổ chức khổng lồ.</li></ol><ol type="1" id="3d4a5eb5-b9bd-804e-b4bc-ca1763a9f925" class="numbered-list" start="2" dir="auto"><li><strong>Kỹ năng định giá (Pricing):</strong> Định giá chứng khoán làm sao để vừa tối ưu hóa lượng vốn huy động cho doanh nghiệp, vừa hấp dẫn nhà đầu tư.</li></ol><ol type="1" id="3d4a5eb5-b9bd-807b-9013-ef71fd24fa7e" class="numbered-list" start="3" dir="auto"><li><strong>Bảo chứng danh tiếng (Reputation):</strong> Là bên thứ ba độc lập thẩm định, giúp nâng cao niềm tin cho thị trường.</li></ol></li></ul><ul id="3d4a5eb5-b9bd-800e-87fa-c0b3c3f8a3cd" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Ba hình thức Bảo lãnh phát hành cốt lõi:</strong><ul id="3d4a5eb5-b9bd-80c7-98b1-ed72486f84c7" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Bảo lãnh với cam kết chắc chắn (Firm Commitment):</strong> NHĐT cam kết sẽ <strong>mua toàn bộ</strong> số chứng khoán phát hành từ doanh nghiệp (bất kể họ có phân phối hết cho công chúng được hay không). Ở hình thức này, NHĐT gánh chịu rủi ro lớn nhất vì nếu không bán hết, họ phải tự ôm lượng chứng khoán tồn đọng.</li></ul><ul id="3d4a5eb5-b9bd-8046-9279-f25ef19e0281" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Bảo lãnh cố gắng tối đa (Best Effort):</strong> NHĐT chỉ đóng vai trò làm đại lý phát hành cho tổ chức phát hành. Họ cam kết sẽ <strong>nỗ lực hết sức</strong> để bán chứng khoán nhưng không cam kết mua lại phần còn dư. Số chứng khoán không bán hết sẽ được trả lại cho tổ chức phát hành mà NHĐT không phải chịu trách nhiệm tài chính trực tiếp.</li></ul><ul id="3d4a5eb5-b9bd-808a-a861-cb5d44aa4cf8" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Bảo lãnh tất cả hoặc không (All or None):</strong> Tổ chức phát hành đưa ra điều kiện ngặt nghèo: NHĐT phải bán được <strong>toàn bộ 100%</strong> số lượng chứng khoán dự kiến. Nếu đợt phát hành không thể phân phối hết hoàn toàn, toàn bộ thương vụ sẽ bị <strong>hủy bỏ ngay lập tức</strong> và hoàn trả lại tiền cho những người đã đăng ký mua trước đó.</li></ul></li></ul></div></p></blockquote><blockquote id="3d4a5eb5-b9bd-8001-9274-cb67ea30faf6" class="" dir="auto"><p id="3d4a5eb5-b9bd-8078-b8b0-c05b8eaae19f" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>2. Dịch vụ Tư vấn tài chính (Financial Advisory)</strong><div class="indented"><p id="3d4a5eb5-b9bd-8020-a85f-e4d29068f2c2" class="" dir="auto">NHĐT cung cấp dịch vụ tư vấn chiến lược cho doanh nghiệp trước các quyết định tài chính mang tính bước ngoặt. Hai mảng tư vấn nổi bật nhất bao gồm:</p><ul id="3d4a5eb5-b9bd-8031-88ef-e218f99f2af6" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Mua bán và Sáp nhập (M&amp;A):</strong> Tư vấn chiến lược định giá, đàm phán, tìm kiếm đối tác sáp nhập hoặc mua lại doanh nghiệp.</li></ul><ul id="3d4a5eb5-b9bd-80b7-89f6-fec5fe13f97e" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Tái cấu trúc doanh nghiệp (Corporate Restructuring):</strong> Tư vấn thay đổi cơ cấu nguồn vốn, tái thiết lập mô hình hoạt động nhằm tối ưu hóa hiệu quả tài chính.</li></ul><ul id="3d4a5eb5-b9bd-8092-84e9-c4d6e455c0e2" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>💡 Liên hệ thực tế từ bài giảng:</strong> Hoạt động tư vấn chuyên sâu thu phí này thường do bộ phận NHĐT của các công ty chứng khoán lớn đảm nhiệm. Các NHTM truyền thống thường không có một dịch vụ tư vấn thu phí độc lập rõ ràng như vậy; họ thường chỉ tư vấn lồng ghép, chia sẻ kinh nghiệm trong quá trình bán chéo các sản phẩm tín dụng cho doanh nghiệp.</li></ul></div></p></blockquote><blockquote id="3d4a5eb5-b9bd-80b0-be2c-c55dcb2eee88" class="" dir="auto"><p id="3d4a5eb5-b9bd-80c4-988d-fa1c5d35702e" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>3. Hoạt động Môi giới (Brokerage) và Tự doanh (Proprietary Trading)</strong><div class="indented"><ul id="3d4a5eb5-b9bd-806d-8691-d4aadf3677d6" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Môi giới (Brokerage):</strong> NHĐT đóng vai trò trung gian, là cầu nối khớp lệnh trực tiếp giữa người mua và người bán chứng khoán trên thị trường tài chính. Đôi khi họ thực hiện giao dịch theo sự ủy quyền của khách hàng và thu phí hoa hồng giao dịch.</li></ul><ul id="3d4a5eb5-b9bd-808f-96c5-cf835eceeb4b" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Tự doanh (Proprietary Trading):</strong> Ngược lại với môi giới, ở mảng tự doanh, NHĐT sử dụng <strong>chính nguồn vốn và tài khoản của chính mình</strong> để thực hiện mua bán, đầu tư chứng khoán nhằm tìm kiếm lợi nhuận chênh lệch giá (capital gain). Hoạt động tự doanh này được ghi nhận trực tiếp vào <strong>Sổ giao dịch (Trading Book)</strong> của ngân hàng đầu tư.</li></ul></div></p></blockquote><blockquote id="3d4a5eb5-b9bd-80f5-a7cf-c6d0f750ebec" class="" dir="auto"><p id="3d4a5eb5-b9bd-806e-9217-d3fab408aeff" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>4. Dịch vụ Quản lý tài sản (Asset Management)</strong><div class="indented"><p id="3d4a5eb5-b9bd-8011-b14a-f0b4539d3c1b" class="" dir="auto">NHĐT cung cấp dịch vụ quản lý đầu tư chuyên nghiệp cho các khách hàng (như các quỹ đầu tư, quỹ đầu tư mạo hiểm, quản lý tài sản cho các gia tộc giàu có hoặc các cá nhân có tài sản ròng cực lớn) nhằm mục tiêu tích lũy tài sản cho tương lai.</p><ul id="3d4a5eb5-b9bd-805a-b39d-e1f1f43a660f" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Sơ đồ vận hành dòng tiền của Quỹ Đầu tư (Slide 13):</strong><figure id="3d4a5eb5-b9bd-80a8-8cef-e71297f99f5a" class="image" data-notion-image="image%201.png" dir="ltr"><a href="image%201.png"><img style="width:616.984375px" src="image%201.png"/></a></figure><ul id="3d4a5eb5-b9bd-80e3-a765-e195766d9d49" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Nhà đầu tư</strong> bỏ tiền mặt (Cash) mua <strong>Chứng chỉ quỹ (CCQ)</strong> do Quỹ đầu tư phát hành.</li></ul><ul id="3d4a5eb5-b9bd-800d-9f94-f02080c5ec00" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Công ty quản lý quỹ</strong> (thường do NHĐT sở hữu hoặc liên kết) đứng ra quản lý và mang nguồn vốn tập trung này đi <strong>đầu tư trực tiếp</strong> vào danh mục tài sản đa dạng bao gồm: cổ phiếu, trái phiếu, hàng hóa (vàng, dầu thô, cà phê...), bất động sản, công cụ phái sinh.</li></ul><ul id="3d4a5eb5-b9bd-8028-b520-ce2bcf2817a7" class="bulleted-list" dir="auto"><li style="list-style-type:circle">Các tài sản đầu tư sinh lời tạo ra <strong>dòng tiền</strong> (tiền lãi, cổ tức, lợi vốn - capital gain) chảy ngược lại về Quỹ đầu tư để phân phối cho nhà đầu tư.</li></ul><ul id="3d4a5eb5-b9bd-808f-96c4-e91fb0a98f9e" class="bulleted-list" dir="auto"><li style="list-style-type:circle">Công ty quản lý quỹ sẽ trích thu một phần <strong>Phí quản lý quỹ</strong> từ dòng tiền này.</li></ul></li></ul><ul id="3d4a5eb5-b9bd-80da-a766-d62e2279f014" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Phân tích rào cản của nhà đầu tư nhỏ lẻ (Slide 14):</strong><ol type="1" id="3d4a5eb5-b9bd-80b0-876c-c60481dda6cb" class="numbered-list" start="1" dir="auto"><li><strong>Vốn ít:</strong> Khó thực hiện đa dạng hóa danh mục đầu tư để giảm thiểu rủi ro.</li></ol><ol type="1" id="3d4a5eb5-b9bd-80e4-be28-d73d92072458" class="numbered-list" start="2" dir="auto"><li><strong>Chi phí cao:</strong> Phí giao dịch cho các lệnh nhỏ lẻ thường bị tính ở mức rất cao.</li></ol><ol type="1" id="3d4a5eb5-b9bd-80d1-874f-ebe3579d3c69" class="numbered-list" start="3" dir="auto"><li><strong>Thiếu năng lực chuyên môn:</strong> Việc đầu tư hiệu quả đòi hỏi kiến thức sâu rộng, khả năng phân tích thị trường và sản phẩm mà đa số cá nhân không có đủ thời gian hoặc trình độ để tự thực hiện.</li></ol></li></ul><ul id="3d4a5eb5-b9bd-8078-86f5-ca5f44c208db" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Tính ưu việt khi đầu tư gián tiếp qua Chứng chỉ quỹ (Slide 15):</strong> giúp nhà đầu tư nhỏ lẻ <strong>tăng khả năng phân tán rủi ro</strong>, <strong>giảm chi phí giao dịch</strong> nhờ lợi thế quy mô của quỹ, và được hưởng lợi từ <strong>kỹ năng đầu tư chuyên nghiệp</strong> của các chuyên gia.</li></ul><ul id="3d4a5eb5-b9bd-804f-bb30-d4778ef39e25" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Hệ thống phân loại các Quỹ đầu tư phổ biến (Slide 16):</strong><ul id="3d4a5eb5-b9bd-80e7-ac88-fb72aabbbc46" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Quỹ tương hỗ (Mutual Funds)</strong>.</li></ul><ul id="3d4a5eb5-b9bd-8036-b2c6-dd91ea579ece" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Quỹ phòng hộ / Quỹ đầu cơ (Hedge Funds)</strong>.</li></ul><ul id="3d4a5eb5-b9bd-80de-8840-c29356d68d7d" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Quỹ hoán đổi danh mục (ETF - Exchange-Traded Fund)</strong>.</li></ul><ul id="3d4a5eb5-b9bd-806b-9653-f128deeb3f68" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Quỹ hưu trí (Pension Funds)</strong>.</li></ul><ul id="3d4a5eb5-b9bd-80ae-b931-ed01eb42daa0" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Quỹ đầu tư mạo hiểm (Venture Capital Funds)</strong>.</li></ul></li></ul><ul id="3d4a5eb5-b9bd-8030-a837-e8e25026235e" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Tiêu điểm: Quỹ hoán đổi danh mục (ETFs) (Slide 17, 18):</strong><ul id="3d4a5eb5-b9bd-80d3-9f66-ecbb2ddc5716" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Đặc điểm:</strong> Là loại quỹ được thiết kế đặc biệt để <strong>mô phỏng tỷ suất sinh lợi của một loại chỉ số cụ thể</strong> (chỉ số cổ phiếu, hàng hóa...). Chứng chỉ quỹ ETF được niêm yết và giao dịch trực tiếp trên sở giao dịch chứng khoán giống hệt như một cổ phiếu thông thường.</li></ul><ul id="3d4a5eb5-b9bd-80e4-9926-e5740fb6e24a" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Các loại quỹ ETF phổ biến trên thị trường:</strong> ETFs cổ phiếu, ETFs trái phiếu, ETFs hàng hóa (vàng, dầu thô, cao su, cà phê...), ETFs quốc tế (nhằm mục đích đa dạng hóa toàn cầu bằng cách bổ sung cổ phiếu nước ngoài), và ETFs nhóm ngành (đầu tư tập trung vào các công ty công nghệ, tài chính - ngân hàng, y tế...).</li></ul></li></ul></div></p></blockquote><h2 id="3d4a5eb5-b9bd-8009-b0a3-e448ec661254" class="" dir="auto"><strong>4. Thực tế Thị trường và Thảo luận Học thuật</strong></h2><blockquote id="3d4a5eb5-b9bd-80dd-8411-ef33158589af" class="" dir="auto"><p id="3d4a5eb5-b9bd-80c9-b854-f7da4f7c56d5" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>1. Các định chế Ngân hàng Đầu tư (NHĐT) hàng đầu thế giới</strong><div class="indented"><p id="3d4a5eb5-b9bd-8008-ac73-e1a87e0cb11f" class="" dir="auto">Trong thực tế tài chính toàn cầu, nhóm các ngân hàng đầu tư quy mô lớn nhất và có tầm ảnh hưởng chi phối mạnh mẽ nhất thường được gọi là các <strong>Bulge Bracket</strong>. Theo tài liệu slide bài giảng, danh sách các &quot;ông lớn&quot; định hình thị trường NHĐT thế giới bao gồm:</p><ul id="3d4a5eb5-b9bd-80ab-af43-ceee35f0cf43" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Goldman Sachs</strong></li></ul><ul id="3d4a5eb5-b9bd-8046-9ef9-f711b17f4d47" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>JP Morgan Chase</strong></li></ul><ul id="3d4a5eb5-b9bd-8097-892c-e65658bb4efd" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Barclays</strong></li></ul><ul id="3d4a5eb5-b9bd-80ad-9032-f2a7b88c7176" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Bank of America Merrill Lynch</strong></li></ul><ul id="3d4a5eb5-b9bd-809c-b06a-d121d2676cac" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Morgan Stanley</strong></li></ul><ul id="3d4a5eb5-b9bd-80c3-820b-ed69853703c8" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Deutsche Bank</strong></li></ul><ul id="3d4a5eb5-b9bd-8016-90d0-f1a6f9509358" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Credit Suisse</strong></li></ul><ul id="3d4a5eb5-b9bd-80c3-bf6b-cbc760c1b011" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>UBS</strong></li></ul><ul id="3d4a5eb5-b9bd-80d8-8791-d71fe979c1bc" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>HSBC</strong></li></ul><ul id="3d4a5eb5-b9bd-806a-9375-db36af2b45ce" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>💡 Phân tích học thuật bổ sung:</strong> Hầu hết các định chế này đều có lịch sử lâu đời và sở hữu mạng lưới khách hàng tổ chức (chính phủ, tập đoàn đa quốc gia) cực kỳ rộng lớn. Danh tiếng của họ chính là rào cản gia nhập ngành lớn nhất, giúp họ dễ dàng thu hút các thương vụ M&amp;A hay các hợp đồng bảo lãnh phát hành chứng khoán trị giá hàng tỷ USD.</li></ul></div></p></blockquote><blockquote id="3d4a5eb5-b9bd-8025-8f71-e5eb24da9406" class="" dir="auto"><p id="3d4a5eb5-b9bd-8066-b6a1-e82aba7e3e06" class="block-color-gray_background" data-notion-highlight="gray_background" dir="auto"><strong>2. Hệ thống câu hỏi thảo luận &amp; Khung phân tích gợi ý (Slide 20)</strong><div class="indented"><p id="3d4a5eb5-b9bd-80e1-be1e-f42e92185664" class="" dir="auto"><strong>CÂU 1: Hãy chọn 1 sản phẩm ngân hàng có tên đặc biệt mà bạn thích (trên thị trường Việt Nam). Trình bày những đặc tính cơ bản và những tiện ích tăng thêm của sản phẩm đó.</strong></p><ul id="3d4a5eb5-b9bd-80e6-965b-fe8c96df181c" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Khung phân tích của Chuyên gia:</strong> Để trả lời câu hỏi này một cách thuyết phục, bạn cần vận dụng lý thuyết về <strong>Sản phẩm May sẵn (Standardized)</strong> và <strong>Khái niệm 7P trong Marketing Ngân hàng</strong> (đặc biệt là mối quan hệ giữa cốt lõi sản phẩm và tiện ích gia tăng để tạo sự khác biệt).</li></ul><ul id="3d4a5eb5-b9bd-808b-b584-f3ebb66449e2" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Gợi ý lựa chọn sản phẩm thực tế:</strong> <strong>&quot;Tài khoản tích lũy thông minh&quot;</strong> hoặc các gói tài khoản <strong>&quot;Zero Fee&quot;</strong> (như gói tài khoản của Techcombank, TPBank, hoặc Vietcombank).</li></ul><ul id="3d4a5eb5-b9bd-80e4-9b58-fb94c52d4309" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Phân tích cấu trúc câu trả lời:</strong><ol type="1" id="3d4a5eb5-b9bd-8008-96c4-ce45dedf581f" class="numbered-list" start="1" dir="auto"><li><strong>Tên sản phẩm đặc biệt:</strong> Ví dụ gói tài khoản tích hợp đa năng hoặc tài khoản số đẹp/số phong thủy cá nhân hóa.</li></ol><ol type="1" id="3d4a5eb5-b9bd-8071-898b-f0f29921f319" class="numbered-list" start="2" dir="auto"><li><strong>Đặc tính cơ bản (Core Features):</strong> Bản chất sản phẩm tài chính chỉ là một chuỗi các dòng tiền. Đối với tài khoản thanh toán hoặc tiết kiệm, đặc tính cơ bản là nơi giữ tiền an toàn, thực hiện các giao dịch chuyển nhận tiền và hưởng mức lãi suất danh nghĩa theo quy định.</li></ol><ol type="1" id="3d4a5eb5-b9bd-806b-bbd6-c791a80d2dbc" class="numbered-list" start="3" dir="auto"><li><strong>Tiện ích tăng thêm (Value-Added Benefits):</strong> Đây là yếu tố cốt lõi giúp ngân hàng tạo ra <strong>sự khác biệt</strong> (differentiation) trong một thị trường sản phẩm tài chính vốn bị coi là hàng hóa đại trà &quot;nhàm chán&quot;. Tiện ích tăng thêm bao gồm:<ul id="3d4a5eb5-b9bd-809f-a2ac-e26d383f1bc9" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Miễn phí giao dịch trọn đời (Zero Fee):</strong> Đóng vai trò là &quot;chim mồi&quot; để thu hút dòng tiền gửi không kỳ hạn (CASA) dồi dào, giúp ngân hàng tối ưu hóa chi phí vốn.</li></ul><ul id="3d4a5eb5-b9bd-8074-8ee7-d9bf7f72414e" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Tích hợp công nghệ cao:</strong> Trải nghiệm mượt mà trên ứng dụng di động (Mobile App), rút tiền bằng mã QR/khuôn mặt không cần thẻ vật lý, hay tích hợp thanh toán Apple Pay.</li></ul><ul id="3d4a5eb5-b9bd-80b3-a2fc-c48764c6ec55" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Cá nhân hóa tối đa:</strong> Cho phép khách hàng tự thiết kế số tài khoản theo ngày sinh, số điện thoại hoặc biệt danh riêng (chuyển đổi từ sản phẩm đại trà sang xu hướng &quot;may đo&quot; cá nhân hóa).</li></ul></li></ol></li></ul><hr id="3d4a5eb5-b9bd-8099-80cc-fce9ab1ebbe5" dir="auto"/><p id="3d4a5eb5-b9bd-80a4-a4ae-f571ccdedfd2" class="" dir="auto"><strong>CÂU 2: Giả sử một nhà đầu tư có rất nhiều vốn và chỉ muốn kinh doanh trong lĩnh vực ngân hàng. Theo bạn, nhà đầu tư đó nên chọn mô hình nào để kinh doanh và giải thích: Ngân hàng Thương mại (NHTM)?, Ngân hàng Đầu tư (NHĐT)?, hay Mô hình kinh doanh khác?</strong></p><ul id="3d4a5eb5-b9bd-8084-8b5e-cd2a7d66246a" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Khung phân tích so sánh và Tư vấn chiến lược:</strong><table id="3d4a5eb5-b9bd-80b6-82d5-d6a928b2309f" class="simple-table" dir="ltr"><thead class="simple-table-header"><tr id="3d4a5eb5-b9bd-8017-8091-dcd83ea359a3" dir="ltr"><th id="NyFq" class="simple-table-header-color simple-table-header"><strong>Tiêu chí</strong></th><th id="qNPA" class="simple-table-header-color simple-table-header"><strong>Ngân hàng Thương mại (NHTM)</strong></th><th id="BiU[" class="simple-table-header-color simple-table-header"><strong>Ngân hàng Đầu tư (NHĐT)</strong></th><th id="OJ{V" class="simple-table-header-color simple-table-header"><strong>Mô hình Hỗn hợp (Universal Banking)</strong></th></tr></thead><tbody><tr id="3d4a5eb5-b9bd-8053-b46e-d7c64671f526" dir="ltr"><td id="NyFq" class=""><strong>Bản chất hoạt động</strong></td><td id="qNPA" class="">Nhận tiền gửi đại chúng để cấp tín dụng và cho vay lấy lãi.</td><td id="BiU[" class="">Không nhận tiền gửi; tập trung bảo lãnh phát hành, tư vấn M&amp;A, tự doanh.</td><td id="OJ{V" class="">Kết hợp cả hoạt động thương mại truyền thống và các dịch vụ ngân hàng đầu tư dưới một tập đoàn tài chính.</td></tr><tr id="3d4a5eb5-b9bd-80d9-903a-d31f7bd3d9bf" dir="ltr"><td id="NyFq" class=""><strong>Lợi thế lớn nhất</strong></td><td id="qNPA" class="">Tiếp cận nguồn vốn huy động giá rẻ nhất thị trường (tiền gửi tiết kiệm).</td><td id="BiU[" class="">Tỷ suất sinh lời (ROA/ROE) cao; doanh thu phí dịch vụ lớn, không phụ thuộc nhiều vào rủi ro tín dụng trực tiếp.</td><td id="OJ{V" class="">Tối ưu hóa bán chéo sản phẩm (Cross-selling), đa dạng hóa nguồn thu, phân tán rủi ro hệ thống.</td></tr><tr id="3d4a5eb5-b9bd-80b8-9d24-f0c4ae9ca60f" dir="ltr"><td id="NyFq" class=""><strong>Thách thức chính</strong></td><td id="qNPA" class="">Cạnh tranh khốc liệt; rào cản pháp lý và an toàn vốn cực kỳ ngặt nghèo để bảo vệ người gửi tiền.</td><td id="BiU[" class="">Quy mô thị trường vốn tại Việt Nam còn nhỏ; đòi hỏi danh tiếng cực cao và đội ngũ chuyên gia xuất sắc.</td><td id="OJ{V" class="">Cấu trúc quản lý phức tạp; dễ xảy ra xung đột lợi ích giữa bộ phận thương mại và đầu tư.</td></tr></tbody></table></li></ul><ul id="3d4a5eb5-b9bd-8033-8778-ee8226051a76" class="bulleted-list" dir="auto"><li style="list-style-type:disc"><strong>Khuyến nghị tư vấn tối ưu cho nhà đầu tư:</strong><ul id="3d4a5eb5-b9bd-80eb-bba7-ddfce1eefb84" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Tại thị trường Việt Nam hiện nay, mô hình tối ưu nhất là Mô hình kinh doanh khác: Ngân hàng hỗn hợp (Universal Banking).</strong></li></ul><ul id="3d4a5eb5-b9bd-8045-a737-d7c7e749d248" class="bulleted-list" dir="auto"><li style="list-style-type:circle"><strong>Lập luận chi tiết:</strong><ol type="1" id="3d4a5eb5-b9bd-80f5-8c54-dd46b39dcbb6" class="numbered-list" start="1" dir="auto"><li>Nếu thành lập một NHĐT thuần túy tại Việt Nam sẽ gặp khó khăn rất lớn về mặt pháp lý và dung lượng thị trường vốn chưa đủ sâu để nuôi sống một bộ máy NHĐT độc lập quy mô lớn. Các hoạt động NHĐT tại Việt Nam hiện chủ yếu vẫn nằm trong phân khúc dịch vụ của các công ty chứng khoán lớn.</li></ol><ol type="1" id="3d4a5eb5-b9bd-80fa-b54b-fdc9b0a09bcc" class="numbered-list" start="2" dir="auto"><li>Do đó, nhà đầu tư nên bắt đầu bằng việc thiết lập một <strong>NHTM có nền tảng công nghệ mạnh mẽ</strong> để nhanh chóng thu hút tệp khách hàng cá nhân và doanh nghiệp, tạo ra bệ đỡ nguồn vốn huy động giá rẻ ổn định.</li></ol><ol type="1" id="3d4a5eb5-b9bd-8078-93b8-d972fab97db6" class="numbered-list" start="3" dir="auto"><li>Đồng thời, thành lập hoặc mua lại các công ty con chuyên biệt như <strong>Công ty Chứng khoán (đóng vai trò NHĐT)</strong> và <strong>Công ty Quản lý quỹ</strong>. Việc này giúp ngân hàng thực hiện chiến lược bán chéo sản phẩm một cách hoàn hảo: vừa cho doanh nghiệp vay vốn truyền thống (NHTM), vừa tư vấn phát hành trái phiếu/cổ phiếu ra công chúng khi quy mô doanh nghiệp lớn mạnh (NHĐT), và quản lý dòng tiền nhàn rỗi cho các chủ doanh nghiệp thông qua chứng chỉ quỹ (Quản lý tài sản). Đây chính là con đường mà các tập đoàn tài chính hàng đầu Việt Nam (Vietcombank, Techcombank, BIDV, v.v.) đang áp dụng vô cùng thành công.</li></ol></li></ul></li></ul></div></p></blockquote><p id="3d4a5eb5-b9bd-8071-bd47-c075d107ec71" class="" dir="auto">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
