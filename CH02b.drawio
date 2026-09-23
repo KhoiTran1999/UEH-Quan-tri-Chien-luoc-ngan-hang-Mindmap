@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="Electron">
+  <diagram name="Quản trị và Chiến lược Ngân hàng - Chương 2b" id="Chapter2b-InvestmentBank-Mindmap">
+    <mxGraphModel dx="1628" dy="-1422" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="TITLE_BANNER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#1e293b;strokeColor=#0f172a;strokeWidth=2;fontColor=#ffffff;align=center;verticalAlign=middle;shadow=1;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry x="1600" y="3215" width="2350" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="TITLE_TEXT" parent="1" style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontSize=24;fontStyle=1;" value="CHƯƠNG 2b: CÁC HOẠT ĐỘNG KINH DOANH CHỦ YẾU CỦA NGÂN HÀNG ĐẦU TƯ&lt;br/&gt;&lt;span style=&quot;font-size: 13px; font-weight: normal; opacity: 0.85; color: #94a3b8;&quot;&gt;Entity-based Hierarchical Mindmap | Đào sâu [E7] Ngân hàng Đầu tư (Investment Banking / CTCK) | Thị trường vốn &amp;amp; Universal Banking&lt;/span&gt;" vertex="1">
+          <mxGeometry x="1620" y="3225" width="2310" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="E7_ROOT" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#4A148C;strokeColor=#6A1B9A;fontColor=#ffffff;fontStyle=1;fontSize=14;shadow=1;fontFamily=Helvetica;" value="🏛️ [E7] TRỤC CỐT LÕI: NGÂN HÀNG ĐẦU TƯ (INVESTMENT BANK - NHĐT / KHỐI IB CTCK)&lt;br/&gt;&lt;span style=&quot;opacity: 0.9; font-size: 11px; font-weight: normal;&quot;&gt;Định chế phi nhận tiền gửi | Kiến trúc sư thị trường vốn | Bảo lãnh phát hành, Tư vấn M&amp;amp;A, Tự doanh &amp;amp; Quản lý tài sản&lt;/span&gt;" vertex="1">
+          <mxGeometry x="2480" y="3365" width="620" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="EXT_E2_MOF" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#37474F;strokeColor=#212121;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;fontFamily=Helvetica;align=center;" value="🏛️ [E2] BỘ TÀI CHÍNH &amp;amp; UBCKNN&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 10px; font-weight: normal;&quot;&gt;Quản lý Nhà nước TTCK, cấp phép CTCK/CTQL Quỹ,&lt;br/&gt;giám sát công bố thông tin &amp;amp; phòng ngừa thao túng giá&lt;/span&gt;" vertex="1">
+          <mxGeometry x="960" y="3490" width="360" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="EXT_E1_NHNN" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#263238;strokeColor=#37474F;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;fontFamily=Helvetica;align=center;" value="🏛️ [E1] NGÂN HÀNG TRUNG ƯƠNG (NHNN)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 10px; font-weight: normal;&quot;&gt;Yêu cầu Bức tường lửa (Firewalls) ngăn ngừa rủi ro lây lan&lt;br/&gt;từ CTCK/Đầu tư sang Ngân hàng thương mại mẹ&lt;/span&gt;" vertex="1">
+          <mxGeometry x="960" y="3680" width="360" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="EXT_E3_NHTM" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#0D47A1;strokeColor=#1565C0;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;fontFamily=Helvetica;align=center;" value="🏛️ [E3] ĐỊNH CHẾ NHẬN TIỀN GỬI (NHTM CỐT LÕI)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 10px; font-weight: normal;&quot;&gt;Bệ đỡ nguồn vốn huy động giá rẻ (CASA ~0%) &amp;amp; Thanh toán;&lt;br/&gt;Bắt tay với NHĐT hình thành Tập đoàn Universal Banking&lt;/span&gt;" vertex="1">
+          <mxGeometry x="960" y="3880" width="360" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="EXT_E5_DEFICIT" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#BF360C;strokeColor=#E65100;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;fontFamily=Helvetica;align=center;" value="🏭 [E5] BÊN THIẾU VỐN (DEFICIT UNITS - TỔ CHỨC PHÁT HÀNH)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 10px; font-weight: normal;&quot;&gt;Tập đoàn, Doanh nghiệp lớn &amp;amp; Chính phủ huy động vốn dài hạn;&lt;br/&gt;Khách hàng thuê NHĐT bảo lãnh IPO, phát hành trái phiếu &amp;amp; tư vấn M&amp;amp;A&lt;/span&gt;" vertex="1">
+          <mxGeometry x="3670" y="3550" width="360" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="EXT_E4_SURPLUS" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#1B5E20;strokeColor=#2E7D32;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;fontFamily=Helvetica;align=center;" value="💰 [E4] BÊN THỪA VỐN (SURPLUS UNITS - NHÀ ĐẦU TƯ)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 10px; font-weight: normal;&quot;&gt;Nhà đầu tư tổ chức (Quỹ hưu trí, Bảo hiểm) &amp;amp; Cá nhân HNWIs;&lt;br/&gt;Mua cổ phiếu, trái phiếu, CCQ, ETFs; tự gánh chịu rủi ro thị trường&lt;/span&gt;" vertex="1">
+          <mxGeometry x="3670" y="3770" width="360" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="G1_HEADER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;align=center;fillColor=#1A237E;strokeColor=#283593;" value="1.0 ⚖️ VỊ THẾ THỂ CHẾ &amp;amp; TRIẾT LÝ VẬN HÀNH&lt;br/&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;opacity:0.9;&quot;&gt;Định chế phi nhận tiền gửi &amp;amp; Sản phẩm May đo (Customized)&lt;/span&gt;" vertex="1">
+          <mxGeometry x="1400" y="3490" width="380" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="G1_CARD_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#EDE7F6;strokeColor=#5C6BC0;fontColor=#1A237E;" value="1.1 🎯 ĐỊNH NGHĨA &amp;amp; ĐỊNH NGHĨA LOẠI TRỪ CỦA GS. GIULIANO IANNOTTA:&lt;br/&gt;• &lt;b&gt;Định chế phi tiền gửi (Non-depository):&lt;/b&gt; Trung gian tài chính phục vụ tập đoàn lớn, chính phủ; tuyệt đối không huy động tiền gửi tiết kiệm cá nhân để cho vay&lt;br/&gt;• &lt;b&gt;Định nghĩa loại trừ nổi tiếng:&lt;/b&gt; &lt;i&gt;&quot;Investment banking is the banking activity not classifiable as commercial banking&quot;&lt;/i&gt; (GS. Giuliano Iannotta)&lt;br/&gt;• &lt;b&gt;Ý nghĩa học thuật:&lt;/b&gt; Bất kỳ giải pháp tài chính phức tạp nào trên thị trường vốn không thuộc nghiệp vụ nhận tiền gửi/cho vay truyền thống đều thuộc phạm vi NHĐT" vertex="1">
+          <mxGeometry x="1400" y="3575" width="380" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="G1_CARD_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#EDE7F6;strokeColor=#5C6BC0;fontColor=#1A237E;" value="1.2 🧵 TRIẾT LÝ SẢN PHẨM: HÀNG &quot;MAY SẴN&quot; VS. HÀNG &quot;MAY ĐO&quot;:&lt;br/&gt;• &lt;b&gt;NHTM - Hàng &quot;May sẵn&quot; (Standardized):&lt;/b&gt; Sản phẩm phổ thông, đại trà, đóng gói theo khung tiêu chuẩn (gói tiết kiệm kỳ hạn, khoản vay mua nhà cố định)&lt;br/&gt;• &lt;b&gt;NHĐT - Hàng &quot;May đo&quot; (Customized):&lt;/b&gt; Sản phẩm cá nhân hóa cao cấp; thiết kế riêng biệt cho cấu trúc vốn đặc thù của từng tập đoàn&lt;br/&gt;• &lt;b&gt;Độ phức tạp vượt trội:&lt;/b&gt; Mỗi thương vụ phát hành IPO, đàm phán M&amp;amp;A, hay công cụ phái sinh cấu trúc đều là một giải pháp đơn bản độc nhất" vertex="1">
+          <mxGeometry x="1400" y="3720" width="380" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="G1_CARD_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#EDE7F6;strokeColor=#5C6BC0;fontColor=#1A237E;" value="1.3 🛡️ BỐN ĐẶC ĐIỂM CỐT LÕI &amp;amp; TÀI SẢN DANH TIẾNG (REPUTATION):&lt;br/&gt;• &lt;b&gt;Kinh doanh vì lợi nhuận:&lt;/b&gt; Hoạt động như doanh nghiệp tư nhân tối đa hóa giá trị cho cổ đông&lt;br/&gt;• &lt;b&gt;Huy động vốn bán buôn:&lt;/b&gt; Bằng cách phát hành cổ phiếu, trái phiếu của chính mình và vay mượn trên thị trường tiền tệ bán buôn&lt;br/&gt;• &lt;b&gt;Trung gian kết nối thuần túy:&lt;/b&gt; Không dùng vốn tự có gánh rủi ro tín dụng; kết nối trực tiếp tổ chức phát hành và nhà đầu tư (nhà đầu tư tự chịu rủi ro vốn)&lt;br/&gt;• &lt;b&gt;Tài sản quý giá nhất - Danh tiếng:&lt;/b&gt; Bảo chứng niềm tin cho thương vụ hàng tỷ USD; định giá sai làm sụp đổ danh tiếng và mất khách hàng vĩnh viễn" vertex="1">
+          <mxGeometry x="1400" y="3865" width="380" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="G2_HEADER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;align=center;fillColor=#004D40;strokeColor=#00695C;" value="2.0 🔍 SO SÁNH ĐỐI CHUẨN TOÀN DIỆN: NHTM VS. NHĐT&lt;br/&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;opacity:0.9;&quot;&gt;Dòng vốn, Cơ chế rủi ro, Cơ cấu doanh thu &amp;amp; Khẩu vị&lt;/span&gt;" vertex="1">
+          <mxGeometry x="1840" y="3490" width="390" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="G2_CARD_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F2F1;strokeColor=#26A69A;fontColor=#004D40;" value="2.1 🔄 VAI TRÒ TRUNG GIAN &amp;amp; CƠ CHẾ LUÂN CHUYỂN DÒNG VỐN:&lt;br/&gt;• &lt;b&gt;NHTM:&lt;/b&gt; Đứng giữa &lt;i&gt;Người gửi tiền&lt;/i&gt; và &lt;i&gt;Người đi vay&lt;/i&gt;; nhận tiền gửi vào bảng cân đối rồi cấp tín dụng; dòng vốn đi gián tiếp qua trung gian ngân hàng&lt;br/&gt;• &lt;b&gt;NHĐT:&lt;/b&gt; Đứng giữa &lt;i&gt;Chủ thể phát hành (DN cần vốn)&lt;/i&gt; và &lt;i&gt;Nhà đầu tư (thừa vốn)&lt;/i&gt;; tổ chức thu xếp để dòng vốn chuyển dịch trực tiếp từ nhà đầu tư sang tổ chức phát hành&lt;br/&gt;• &lt;b&gt;Bản chất tài chính:&lt;/b&gt; NHTM tạo bút tệ và biến đổi kỳ hạn; NHĐT khơi thông thị trường vốn sơ cấp và thứ cấp" vertex="1">
+          <mxGeometry x="1840" y="3575" width="390" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="G2_CARD_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F2F1;strokeColor=#26A69A;fontColor=#004D40;" value="2.2 ⚖️ PHÂN BỔ RỦI RO: RỦI RO TÍN DỤNG VS. RỦI RO DANH TIẾNG:&lt;br/&gt;• &lt;b&gt;NHTM gánh chịu rủi ro trực tiếp:&lt;/b&gt; Cho vay bằng nguồn tiền gửi huy động; nếu bên vay vỡ nợ, NHTM chịu toàn bộ tổn thất tín dụng (NPL) và nguy cơ mất thanh khoản&lt;br/&gt;• &lt;b&gt;NHĐT chuyển giao rủi ro cho thị trường:&lt;/b&gt; Nhà đầu tư tự thẩm định và chịu trách nhiệm trực tiếp trên đồng vốn của mình&lt;br/&gt;• &lt;b&gt;Rủi ro sống còn của NHĐT là Danh tiếng:&lt;/b&gt; Nếu tư vấn định giá sai lệch hoặc thiếu minh bạch, thương vụ thất bại sẽ hủy hoại uy tín thương hiệu" vertex="1">
+          <mxGeometry x="1840" y="3720" width="390" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="G2_CARD_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F2F1;strokeColor=#26A69A;fontColor=#004D40;" value="2.3 📊 DOANH THU &amp;amp; HẠCH TOÁN: BANKING BOOK VS. TRADING BOOK:&lt;br/&gt;• &lt;b&gt;NHTM - Trụ cột NII trên Banking Book:&lt;/b&gt; Doanh thu phụ thuộc 70% - 83% vào Thu nhập lãi thuần (NII); tài sản hạch toán giữ đến ngày đáo hạn&lt;br/&gt;• &lt;b&gt;NHĐT - Phí dịch vụ &amp;amp; Tự doanh trên Trading Book:&lt;/b&gt; NII chiếm tỷ trọng không đáng kể; nguồn thu đến từ Phí dịch vụ (~49%) và Tự doanh giao dịch (~32%)&lt;br/&gt;• &lt;b&gt;Định giá thị trường (Mark-to-Market):&lt;/b&gt; Bảng cân đối NHĐT chứa tài sản tài chính được định giá lại theo giá thị trường hàng ngày" vertex="1">
+          <mxGeometry x="1840" y="3865" width="390" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="G2_CARD_4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F2F1;strokeColor=#26A69A;fontColor=#004D40;" value="2.4 🎲 KHẨU VỊ RỦI RO &amp;amp; HỆ THỐNG RÀNG BUỘC PHÁP LÝ:&lt;br/&gt;• &lt;b&gt;NHTM - Khẩu vị rủi ro thấp:&lt;/b&gt; Ràng buộc ngặt nghèo bởi tỷ lệ an toàn vốn (CAR ≥ 8%), tỷ lệ thanh khoản LCR/NSFR và trần LDR 85% để bảo vệ tiền gửi công chúng&lt;br/&gt;• &lt;b&gt;NHĐT - Mức độ chấp nhận rủi ro rất cao:&lt;/b&gt; Sẵn sàng tham gia đầu cơ, tự doanh phái sinh phức tạp hoặc bảo lãnh phát hành cam kết chắc chắn để tìm kiếm siêu lợi nhuận" vertex="1">
+          <mxGeometry x="1840" y="4020" width="390" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="G3_HEADER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;align=center;fillColor=#0277BD;strokeColor=#0288D1;" value="3.0 💼 BỐN HOẠT ĐỘNG KINH DOANH CHỦ YẾU CỦA NHĐT&lt;br/&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;opacity:0.9;&quot;&gt;Bảo lãnh phát hành, Tư vấn M&amp;amp;A, Tự doanh &amp;amp; Quản lý tài sản&lt;/span&gt;" vertex="1">
+          <mxGeometry x="2290" y="3490" width="400" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="G3_CARD_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E1F5FE;strokeColor=#29B6F6;fontColor=#01579B;" value="3.1 📜 I. DỊCH VỤ BẢO LÃNH PHÁT HÀNH (SECURITIES UNDERWRITING):&lt;br/&gt;• &lt;b&gt;Hoạt động cốt lõi hàng đầu:&lt;/b&gt; Thu xếp phát hành chứng khoán vốn (cổ phiếu/IPO) và chứng khoán nợ (trái phiếu doanh nghiệp)&lt;br/&gt;• &lt;b&gt;Ba giá trị gia tăng nghệ thuật:&lt;/b&gt; Mạng lưới phân phối tổ chức (Network) ➔ Kỹ năng định giá chuẩn xác (Pricing) ➔ Bảo chứng danh tiếng (Reputation)&lt;br/&gt;• &lt;b&gt;Cam kết chắc chắn (Firm Commitment):&lt;/b&gt; NHĐT mua toàn bộ chứng khoán; gánh chịu toàn bộ rủi ro tồn đọng nếu thị trường không hấp thụ hết&lt;br/&gt;• &lt;b&gt;Cố gắng tối đa (Best Effort):&lt;/b&gt; NHĐT làm đại lý nỗ lực phân phối tối đa, không cam kết mua lại phần dư, rủi ro thuộc DN phát hành&lt;br/&gt;• &lt;b&gt;Tất cả hoặc không (All or None):&lt;/b&gt; Điều kiện bán đủ 100% số lượng; nếu không phân phối hết thì thương vụ bị hủy bỏ và hoàn tiền" vertex="1">
+          <mxGeometry x="2290" y="3575" width="400" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="G3_CARD_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E1F5FE;strokeColor=#29B6F6;fontColor=#01579B;" value="3.2 🤝 II. DỊCH VỤ TƯ VẤN TÀI CHÍNH (FINANCIAL ADVISORY):&lt;br/&gt;• &lt;b&gt;Tư vấn Mua bán &amp;amp; Sáp nhập (M&amp;amp;A):&lt;/b&gt; Định giá doanh nghiệp mục tiêu, xây dựng chiến lược thâu tóm/phòng thủ, tìm kiếm đối tác chiến lược, đàm phán hợp đồng&lt;br/&gt;• &lt;b&gt;Tái cấu trúc doanh nghiệp (Corporate Restructuring):&lt;/b&gt; Tái thiết lập cơ cấu nguồn vốn, hoán đổi nợ - cổ phần, tối ưu hóa mô hình vận hành tập đoàn&lt;br/&gt;• &lt;b&gt;Thực tiễn thị trường:&lt;/b&gt; Do khối IB của các công ty chứng khoán lớn đảm nhiệm và thu phí tư vấn độc lập; NHTM truyền thống thường chỉ tư vấn lồng ghép khi bán tín dụng" vertex="1">
+          <mxGeometry x="2290" y="3740" width="400" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="G3_CARD_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E1F5FE;strokeColor=#29B6F6;fontColor=#01579B;" value="3.3 📈 III. MÔI GIỚI (BROKERAGE) &amp;amp; TỰ DOANH (PROPRIETARY TRADING):&lt;br/&gt;• &lt;b&gt;Môi giới (Brokerage):&lt;/b&gt; Trung gian khớp lệnh trực tiếp giữa người mua và người bán chứng khoán; cung cấp dịch vụ giao dịch ký quỹ (Margin) và thu phí hoa hồng&lt;br/&gt;• &lt;b&gt;Tự doanh (Proprietary Trading):&lt;/b&gt; NHĐT dùng chính nguồn vốn và tài khoản của mình để đầu tư, mua bán chứng khoán nhằm tìm kiếm lợi vốn (Capital Gain)&lt;br/&gt;• &lt;b&gt;Hạch toán Sổ giao dịch (Trading Book):&lt;/b&gt; Lợi nhuận biến động trực tiếp theo thị trường, đòi hỏi năng lực quản trị rủi ro thị trường (VaR) vượt trội" vertex="1">
+          <mxGeometry x="2290" y="3885" width="400" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="G3_CARD_4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E1F5FE;strokeColor=#29B6F6;fontColor=#01579B;" value="3.4 🧺 IV. DỊCH VỤ QUẢN LÝ TÀI SẢN (ASSET MANAGEMENT):&lt;br/&gt;• &lt;b&gt;Cơ chế dòng tiền Quỹ đầu tư:&lt;/b&gt; NĐT mua Chứng chỉ quỹ (CCQ) ➔ Công ty Quản lý quỹ mang tiền đầu tư danh mục đa tài sản (cổ phiếu, trái phiếu, hàng hóa, BĐS) ➔ Cổ tức/lãi vốn chảy về Quỹ ➔ Thu phí quản lý quỹ&lt;br/&gt;• &lt;b&gt;Hóa giải 3 rào cản NĐT nhỏ lẻ:&lt;/b&gt; Vốn ít, Chi phí giao dịch cao, Thiếu chuyên môn ➔ CCQ giúp đa dạng hóa, giảm chi phí quy mô và hưởng chuyên môn cao&lt;br/&gt;• &lt;b&gt;Hệ thống quỹ phong phú:&lt;/b&gt; Quỹ tương hỗ (Mutual Funds), Quỹ phòng hộ (Hedge Funds), Quỹ hưu trí, Quỹ đầu tư mạo hiểm (Venture Capital)&lt;br/&gt;• &lt;b&gt;Tiêu điểm Quỹ ETF (Exchange-Traded Fund):&lt;/b&gt; Mô phỏng chỉ số (VN30, Diamond), niêm yết và giao dịch trực tiếp trên sàn chứng khoán như cổ phiếu thường" vertex="1">
+          <mxGeometry x="2290" y="4030" width="400" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="G4_HEADER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;align=center;fillColor=#3E2723;strokeColor=#4E342E;" value="4.0 🌐 ĐỊNH CHẾ BULGE BRACKET &amp;amp; XUNG ĐỘT LỢI ÍCH&lt;br/&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;opacity:0.9;&quot;&gt;Các &quot;ông lớn&quot; Phố Wall &amp;amp; Bức tường Trung Hoa (Chinese Walls)&lt;/span&gt;" vertex="1">
+          <mxGeometry x="2750" y="3490" width="390" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="G4_CARD_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#EFEBE9;strokeColor=#8D6E63;fontColor=#3E2723;" value="4.1 👑 CÁC ĐỊNH CHẾ NHĐT HÀNG ĐẦU THẾ GIỚI (BULGE BRACKET):&lt;br/&gt;• &lt;b&gt;Nhóm Bulge Bracket Phố Wall &amp;amp; Châu Âu:&lt;/b&gt; Goldman Sachs, JP Morgan Chase, Barclays, Bank of America Merrill Lynch, Morgan Stanley, Deutsche Bank, Credit Suisse, UBS, HSBC&lt;br/&gt;• &lt;b&gt;Vị thế chi phối toàn cầu:&lt;/b&gt; Chiếm lĩnh hầu hết các thương vụ IPO và M&amp;amp;A khổng lồ xuyên biên giới của các tập đoàn đa quốc gia và chính phủ&lt;br/&gt;• &lt;b&gt;Đặc điểm lịch sử:&lt;/b&gt; Bề dày hàng thế kỷ, văn hóa nhân tài cao cấp và tiềm lực vốn bán buôn hùng mạnh" vertex="1">
+          <mxGeometry x="2750" y="3575" width="390" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="G4_CARD_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#EFEBE9;strokeColor=#8D6E63;fontColor=#3E2723;" value="4.2 🏰 LỢI THẾ CẠNH TRANH &amp;amp; RÀO CẢN GIA NHẬP NGÀNH:&lt;br/&gt;• &lt;b&gt;Mạng lưới phân phối tổ chức vô song:&lt;/b&gt; Khả năng tiếp cận hàng nghìn quỹ đầu tư quốc tế, quỹ hưu trí và quỹ đầu tư quốc gia (Sovereign Wealth Funds)&lt;br/&gt;• &lt;b&gt;Rào cản Danh tiếng tuyệt đối:&lt;/b&gt; Doanh nghiệp lớn chỉ chọn Bulge Bracket để bảo chứng uy tín cho đợt IPO; một NHĐT mới thành lập không thể cạnh tranh nếu thiếu uy tín lịch sử&lt;br/&gt;• &lt;b&gt;Quy mô thương vụ:&lt;/b&gt; Dễ dàng bảo lãnh các đợt phát hành trái phiếu và cổ phiếu quy mô từ vài tỷ đến hàng chục tỷ USD" vertex="1">
+          <mxGeometry x="2750" y="3725" width="390" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="G4_CARD_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#EFEBE9;strokeColor=#8D6E63;fontColor=#3E2723;" value="4.3 🧱 KIỂM SOÁT XUNG ĐỘT LỢI ÍCH: BỨC TƯỜNG TRUNG HOA (CHINESE WALLS):&lt;br/&gt;• &lt;b&gt;Mầm mống xung đột lợi ích cốt tử:&lt;/b&gt; Bộ phận Tư vấn M&amp;amp;A/Bảo lãnh nắm thông tin nội gián mật (Private Information); trong khi Bộ phận Tự doanh/Môi giới giao dịch trên thị trường công khai (Public Market)&lt;br/&gt;• &lt;b&gt;Nguy cơ giao dịch nội gián (Insider Trading):&lt;/b&gt; Nếu nhân viên tự doanh biết trước tin M&amp;amp;A để gom cổ phiếu, thị trường sẽ mất tính công bằng&lt;br/&gt;• &lt;b&gt;Cơ chế Bức tường Trung Hoa (Chinese Walls):&lt;/b&gt; Cách ly tuyệt đối về vật lý, hệ thống CNTT và thông tin liên lạc giữa khối Tư vấn và khối Tự doanh/Nghiên cứu" vertex="1">
+          <mxGeometry x="2750" y="3870" width="390" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="G5_HEADER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;align=center;fillColor=#BF360C;strokeColor=#E65100;" value="5.0 🚀 CHIẾN LƯỢC THỰC THI: MÔ HÌNH UNIVERSAL BANKING&lt;br/&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;opacity:0.9;&quot;&gt;Lựa chọn mô hình cho nhà đầu tư nhiều vốn tại Việt Nam&lt;/span&gt;" vertex="1">
+          <mxGeometry x="3200" y="3490" width="410" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="G5_CARD_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FBE9E7;strokeColor=#FF8A65;fontColor=#BF360C;" value="5.1 ⚖️ ĐÁNH GIÁ 3 LỰA CHỌN MÔ HÌNH KINH DOANH TẠI VIỆT NAM:&lt;br/&gt;• &lt;b&gt;NHTM thuần túy:&lt;/b&gt; Lợi thế vốn rẻ nhưng cạnh tranh khốc liệt, trần an toàn vốn ngặt nghèo, biên lãi ròng NIM ngày càng bị thu hẹp&lt;br/&gt;• &lt;b&gt;NHĐT thuần túy:&lt;/b&gt; Khó tồn tại độc lập tại VN do dung lượng thị trường vốn còn nông, khung pháp lý chưa công nhận pháp nhân &quot;Ngân hàng đầu tư&quot; độc lập mà chỉ có Công ty Chứng khoán&lt;br/&gt;• &lt;b&gt;Mô hình Hỗn hợp (Universal Banking):&lt;/b&gt; Kết hợp sức mạnh nhận tiền gửi của NHTM và sức mạnh thị trường vốn của NHĐT" vertex="1">
+          <mxGeometry x="3200" y="3575" width="410" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="G5_CARD_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FBE9E7;strokeColor=#FF8A65;fontColor=#BF360C;" value="5.2 🏆 KHUYẾN NGHỊ CHIẾN LƯỢC TỐI ƯU CHO NHÀ ĐẦU TƯ:&lt;br/&gt;• &lt;b&gt;Lựa chọn tối thượng:&lt;/b&gt; Thiết lập mô hình &lt;b&gt;Tập đoàn Tài chính Ngân hàng Hỗn hợp (Universal Banking)&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Cấu trúc thực thi 3 chân kiềng:&lt;/b&gt;&lt;br/&gt;  1. &lt;i&gt;Trụ cột nền móng:&lt;/i&gt; NHTM có nền tảng số mạnh để thu hút dòng tiền gửi CASA giá rẻ và xây dựng tệp hàng triệu khách hàng&lt;br/&gt;  2. &lt;i&gt;Trụ cột thị trường vốn:&lt;/i&gt; Công ty Chứng khoán (đóng vai trò NHĐT) thực hiện bảo lãnh, tư vấn M&amp;amp;A, tự doanh&lt;br/&gt;  3. &lt;i&gt;Trụ cột quản lý tài sản:&lt;/i&gt; Công ty Quản lý quỹ phát hành CCQ và ETFs thu hút tiền nhàn rỗi" vertex="1">
+          <mxGeometry x="3200" y="3720" width="410" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="G5_CARD_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FBE9E7;strokeColor=#FF8A65;fontColor=#BF360C;" value="5.3 🔄 CHIẾN LƯỢC BÁN CHÉO (CROSS-SELLING) TRỌN VÒNG ĐỜI KHÁCH HÀNG:&lt;br/&gt;• &lt;b&gt;Giai đoạn khởi nghiệp/SME:&lt;/b&gt; NHTM tài trợ vốn lưu động, cho vay tín dụng ngắn hạn và cung cấp dịch vụ thanh toán/trả lương&lt;br/&gt;• &lt;b&gt;Giai đoạn tăng trưởng quy mô:&lt;/b&gt; Khối NHĐT (CTCK) vào cuộc tư vấn tái cấu trúc, phát hành trái phiếu doanh nghiệp, bảo lãnh phát hành cổ phiếu IPO lên sàn&lt;br/&gt;• &lt;b&gt;Giai đoạn thâu tóm &amp;amp; Tích lũy:&lt;/b&gt; Tư vấn các thương vụ M&amp;amp;A mở rộng; đồng thời Công ty Quản lý quỹ quản lý tài sản gia tộc cho các chủ sở hữu doanh nghiệp" vertex="1">
+          <mxGeometry x="3200" y="3870" width="410" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="G5_CARD_4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FBE9E7;strokeColor=#FF8A65;fontColor=#BF360C;" value="5.4 🏛️ MINH HỌA THỰC TIỄN HỆ SINH THÁI TÀI CHÍNH TẠI VIỆT NAM:&lt;br/&gt;• &lt;b&gt;Hệ sinh thái Techcombank:&lt;/b&gt; Techcombank (NHTM với tỷ lệ CASA dẫn đầu) 🤝 TCBS (CTCK dẫn đầu thị phần môi giới &amp;amp; bảo lãnh trái phiếu iBond) 🤝 Techcom Capital (Quản lý quỹ iFund)&lt;br/&gt;• &lt;b&gt;Hệ sinh thái Vietcombank:&lt;/b&gt; Vietcombank (vị thế thanh toán số 1 VN) 🤝 VCBS (tư vấn phát hành và M&amp;amp;A lớn) 🤝 VCBF (quỹ đầu tư liên doanh quốc tế)&lt;br/&gt;• &lt;b&gt;Hiệu quả tài chính:&lt;/b&gt; Tối đa hóa Thu nhập ngoài lãi (Non-Interest Income), tối ưu tỷ lệ CIR và phân tán rủi ro chu kỳ kinh tế" vertex="1">
+          <mxGeometry x="3200" y="4025" width="410" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_ROOT_G1" parent="1" source="E7_ROOT" target="G1_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#1A237E;strokeWidth=2;exitX=0.1;exitY=1;entryX=0.5;entryY=0;" value="1.0 Vị thế &amp; Triết lý" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_ROOT_G2" parent="1" source="E7_ROOT" target="G2_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#004D40;strokeWidth=2;exitX=0.3;exitY=1;entryX=0.5;entryY=0;" value="2.0 Đối chuẩn NHTM vs NHĐT" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_ROOT_G3" parent="1" source="E7_ROOT" target="G3_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#0277BD;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" value="3.0 Bốn hoạt động chính" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_ROOT_G4" parent="1" source="E7_ROOT" target="G4_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#3E2723;strokeWidth=2;exitX=0.7;exitY=1;entryX=0.5;entryY=0;" value="4.0 Bulge Bracket &amp; Mạng lưới" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_ROOT_G5" parent="1" source="E7_ROOT" target="G5_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;strokeWidth=2;exitX=0.9;exitY=1;entryX=0.5;entryY=0;" value="5.0 Universal Banking VN" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_G1_C1" parent="1" source="G1_HEADER" target="G1_CARD_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#1A237E;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_G1_C2" parent="1" source="G1_HEADER" target="G1_CARD_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#1A237E;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="3560"/>
+              <mxPoint x="1370" y="3560"/>
+              <mxPoint x="1370" y="3782"/>
+              <mxPoint x="1400" y="3782"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G1_C3" parent="1" source="G1_HEADER" target="G1_CARD_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#1A237E;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="3560"/>
+              <mxPoint x="1370" y="3560"/>
+              <mxPoint x="1370" y="3932"/>
+              <mxPoint x="1400" y="3932"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G2_C1" parent="1" source="G2_HEADER" target="G2_CARD_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#004D40;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_G2_C2" parent="1" source="G2_HEADER" target="G2_CARD_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#004D40;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="3560"/>
+              <mxPoint x="1810" y="3560"/>
+              <mxPoint x="1810" y="3782"/>
+              <mxPoint x="1840" y="3782"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G2_C3" parent="1" source="G2_HEADER" target="G2_CARD_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#004D40;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="3560"/>
+              <mxPoint x="1810" y="3560"/>
+              <mxPoint x="1810" y="3932"/>
+              <mxPoint x="1840" y="3932"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G2_C4" parent="1" source="G2_HEADER" target="G2_CARD_4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#004D40;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="3560"/>
+              <mxPoint x="1810" y="3560"/>
+              <mxPoint x="1810" y="4077"/>
+              <mxPoint x="1840" y="4077"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G3_C1" parent="1" source="G3_HEADER" target="G3_CARD_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#0277BD;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_G3_C2" parent="1" source="G3_HEADER" target="G3_CARD_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#0277BD;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2290" y="3560"/>
+              <mxPoint x="2260" y="3560"/>
+              <mxPoint x="2260" y="3802"/>
+              <mxPoint x="2290" y="3802"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G3_C3" parent="1" source="G3_HEADER" target="G3_CARD_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#0277BD;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2290" y="3560"/>
+              <mxPoint x="2260" y="3560"/>
+              <mxPoint x="2260" y="3947"/>
+              <mxPoint x="2290" y="3947"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G3_C4" parent="1" source="G3_HEADER" target="G3_CARD_4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#0277BD;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2290" y="3560"/>
+              <mxPoint x="2260" y="3560"/>
+              <mxPoint x="2260" y="4102"/>
+              <mxPoint x="2290" y="4102"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G4_C1" parent="1" source="G4_HEADER" target="G4_CARD_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#3E2723;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_G4_C2" parent="1" source="G4_HEADER" target="G4_CARD_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#3E2723;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2750" y="3560"/>
+              <mxPoint x="2720" y="3560"/>
+              <mxPoint x="2720" y="3787"/>
+              <mxPoint x="2750" y="3787"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G4_C3" parent="1" source="G4_HEADER" target="G4_CARD_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#3E2723;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2750" y="3560"/>
+              <mxPoint x="2720" y="3560"/>
+              <mxPoint x="2720" y="3937"/>
+              <mxPoint x="2750" y="3937"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G5_C1" parent="1" source="G5_HEADER" target="G5_CARD_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="EDGE_G5_C2" parent="1" source="G5_HEADER" target="G5_CARD_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3200" y="3560"/>
+              <mxPoint x="3170" y="3560"/>
+              <mxPoint x="3170" y="3785"/>
+              <mxPoint x="3200" y="3785"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G5_C3" parent="1" source="G5_HEADER" target="G5_CARD_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3200" y="3560"/>
+              <mxPoint x="3170" y="3560"/>
+              <mxPoint x="3170" y="3937"/>
+              <mxPoint x="3200" y="3937"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G5_C4" parent="1" source="G5_HEADER" target="G5_CARD_4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;" value="" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3200" y="3560"/>
+              <mxPoint x="3170" y="3560"/>
+              <mxPoint x="3170" y="4090"/>
+              <mxPoint x="3200" y="4090"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CROSS_E2_E7" parent="1" source="EXT_E2_MOF" target="E7_ROOT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Helvetica;curved=0;strokeColor=#37474F;strokeWidth=2;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" value="Luật Chứng khoán, cấp phép hoạt động CTCK &amp;amp; giám sát minh bạch thông tin" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="3532"/>
+              <mxPoint x="1340" y="3440"/>
+              <mxPoint x="2450" y="3440"/>
+              <mxPoint x="2450" y="3384"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CROSS_E1_G43" parent="1" source="EXT_E1_NHNN" target="G4_CARD_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Helvetica;curved=0;strokeColor=#263238;strokeWidth=1.5;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" value="Yêu cầu Bức tường lửa (Firewalls) ngăn ngừa rủi ro tự doanh lây lan sang NHTM" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="3722"/>
+              <mxPoint x="1340" y="3450"/>
+              <mxPoint x="2710" y="3450"/>
+              <mxPoint x="2710" y="3937"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CROSS_E3_G52" parent="1" source="EXT_E3_NHTM" target="G5_CARD_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Helvetica;curved=0;strokeColor=#0D47A1;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" value="Bệ đỡ nguồn vốn rẻ CASA, tài khoản thanh toán &amp;amp; chia sẻ tệp khách hàng" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="3925"/>
+              <mxPoint x="1340" y="4180"/>
+              <mxPoint x="3160" y="4180"/>
+              <mxPoint x="3160" y="3785"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CROSS_G31_E5" parent="1" source="G3_CARD_1" target="EXT_E5_DEFICIT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Helvetica;curved=0;strokeColor=#BF360C;strokeWidth=2.5;exitX=1;exitY=0.3;entryX=0;entryY=0.3;" value="Bảo lãnh phát hành cổ phiếu IPO &amp;amp; Trái phiếu doanh nghiệp huy động vốn dài hạn" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2700" y="3618"/>
+              <mxPoint x="3630" y="3618"/>
+              <mxPoint x="3630" y="3577"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CROSS_E5_G32" parent="1" source="EXT_E5_DEFICIT" target="G3_CARD_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Helvetica;curved=0;strokeColor=#E65100;strokeWidth=2;exitX=0;exitY=0.8;entryX=1;entryY=0.5;" value="Thuê tư vấn định giá, tái cấu trúc &amp;amp; đàm phán thương vụ M&amp;amp;A thâu tóm" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3650" y="3622"/>
+              <mxPoint x="3650" y="3802"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CROSS_G34_E4" parent="1" source="G3_CARD_4" target="EXT_E4_SURPLUS" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Helvetica;curved=0;strokeColor=#1B5E20;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" value="Phát hành Chứng chỉ quỹ (CCQ) &amp;amp; Quỹ ETF cho nhà đầu tư tổ chức/cá nhân" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2700" y="4102"/>
+              <mxPoint x="3640" y="4102"/>
+              <mxPoint x="3640" y="3815"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CROSS_E4_G33" parent="1" source="EXT_E4_SURPLUS" target="G3_CARD_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Helvetica;curved=0;strokeColor=#2E7D32;strokeWidth=1.5;dashed=1;exitX=0;exitY=0.2;entryX=1;entryY=0.5;" value="Mở tài khoản, nộp tiền giao dịch cổ phiếu &amp;amp; sử dụng dịch vụ Margin" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3650" y="3788"/>
+              <mxPoint x="3180" y="3788"/>
+              <mxPoint x="3180" y="3947"/>
+              <mxPoint x="2700" y="3947"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CROSS_G53_E5" parent="1" source="G5_CARD_3" target="EXT_E5_DEFICIT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontFamily=Helvetica;curved=0;strokeColor=#BF360C;strokeWidth=1.5;dashed=1;exitX=1;exitY=0.3;entryX=0.5;entryY=1;" value="Bán chéo trọn vòng đời: Vay vốn SME ➔ Phát hành cổ phiếu/trái phiếu ➔ M&amp;amp;A" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3620" y="3910"/>
+              <mxPoint x="3850" y="3910"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
