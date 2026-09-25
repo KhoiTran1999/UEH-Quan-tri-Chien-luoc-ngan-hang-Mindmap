@@ -1,0 +1,351 @@
+<mxfile host="Electron">
+  <diagram name="Quản trị và Chiến lược Ngân hàng - Chương 3" id="Chapter3-BankManagement-Mindmap">
+    <mxGraphModel dx="2873" dy="-1224" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TITLE_BANNER" parent="1" style="rounded=1;html=1;arcSize=8;fillColor=#1e293b;strokeColor=#0f172a;strokeWidth=2;fontColor=#ffffff;align=center;verticalAlign=middle;shadow=1;fontFamily=Helvetica;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="95" width="2350" x="1600" y="3215" as="geometry" />
+        </mxCell>
+        <mxCell id="TITLE_TEXT" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontSize=24;fontStyle=1;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="CHƯƠNG 3: QUẢN TRỊ HOẠT ĐỘNG KINH DOANH NGÂN HÀNG&lt;br/&gt;&lt;span style=&quot;font-size: 13px; font-weight: normal; opacity: 0.85; color: #94a3b8;&quot;&gt;Entity-based Hierarchical Mindmap | Đào sâu Quản trị [E3] NHTM | Đánh đổi Rủi ro - Lợi nhuận | Khung Phân tích Toàn diện CAMEL(S)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="75" width="2310" x="1620" y="3225" as="geometry" />
+        </mxCell>
+        <mxCell id="E3_ROOT" parent="1" style="rounded=1;html=1;arcSize=10;fillColor=#0D47A1;strokeColor=#1565C0;fontColor=#ffffff;fontStyle=1;fontSize=14;shadow=1;fontFamily=Helvetica;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="🏛️ [E3] TRỤC CỐT LÕI: QUẢN TRỊ HOẠT ĐỘNG KINH DOANH NGÂN HÀNG THƯƠNG MẠI&lt;br/&gt;&lt;span style=&quot;opacity: 0.9; font-size: 11px; font-weight: normal;&quot;&gt;Đánh đổi Rủi ro - Lợi nhuận | Khung Phân tích Toàn diện CAMEL(S) | Quản trị An toàn vốn, Thanh khoản &amp; Thị trường&lt;/span&gt;" vertex="1">
+          <mxGeometry height="65" width="620" x="2480" y="3365" as="geometry" />
+        </mxCell>
+        <mxCell id="EXT_E1_NHNN" parent="1" style="rounded=1;html=1;arcSize=8;fillColor=#263238;strokeColor=#37474F;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;fontFamily=Helvetica;align=center;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="🏛️ [E1] NGÂN HÀNG TRUNG ƯƠNG (NHNN)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 10px; font-weight: normal;&quot;&gt;Điều hành CSTT, quy chuẩn an toàn vốn CAR ≥ 8%,&lt;br/&gt;áp trần LDR 85%, thanh tra CAMELS &amp; Người cho vay cuối cùng (LoLR)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="85" width="360" x="960" y="3490" as="geometry" />
+        </mxCell>
+        <mxCell id="EXT_E6_SAFETY_NET" parent="1" style="rounded=1;html=1;arcSize=8;fillColor=#3E2723;strokeColor=#4E342E;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;fontFamily=Helvetica;align=center;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="🛡️ [E6] MẠNG LƯỚI AN TOÀN THỂ CHẾ (SAFETY NET)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 10px; font-weight: normal;&quot;&gt;Bảo hiểm tiền gửi (DIV) bảo vệ tiền gửi cá nhân (hạn mức 125tr);&lt;br/&gt;triệt tiêu nguy cơ rút tiền hàng loạt (Bank Run) khi gặp cú sốc thanh khoản&lt;/span&gt;" vertex="1">
+          <mxGeometry height="85" width="360" x="960" y="3680" as="geometry" />
+        </mxCell>
+        <mxCell id="EXT_E2_MOF" parent="1" style="rounded=1;html=1;arcSize=8;fillColor=#37474F;strokeColor=#212121;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;fontFamily=Helvetica;align=center;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="🏛️ [E2] BỘ TÀI CHÍNH (MOF)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 10px; font-weight: normal;&quot;&gt;Phát hành Trái phiếu Chính phủ cung ứng tài sản HQLA chuẩn;&lt;br/&gt;phối hợp chính sách tài khóa - tiền tệ hạn chế hiệu ứng chèn lấn&lt;/span&gt;" vertex="1">
+          <mxGeometry height="85" width="360" x="960" y="3880" as="geometry" />
+        </mxCell>
+        <mxCell id="EXT_E4_SURPLUS" parent="1" style="rounded=1;html=1;arcSize=8;fillColor=#1B5E20;strokeColor=#2E7D32;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;fontFamily=Helvetica;align=center;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="💰 [E4] BÊN THỪA VỐN (SURPLUS UNITS - NGƯỜI GỬI TIỀN)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 10px; font-weight: normal;&quot;&gt;Cung cấp dòng tiền Inflows tiền gửi (CASA ~0%, tiết kiệm kỳ hạn);&lt;br/&gt;đối tượng thụ hưởng tấm đệm an toàn vốn chữ C &amp; khả năng thanh khoản chữ L&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="360" x="3832" y="3558" as="geometry" />
+        </mxCell>
+        <mxCell id="EXT_E5_DEFICIT" parent="1" style="rounded=1;html=1;arcSize=8;fillColor=#BF360C;strokeColor=#E65100;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;fontFamily=Helvetica;align=center;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="🏭 [E5] BÊN THIẾU VỐN (DEFICIT UNITS - BÊN ĐI VAY)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 10px; font-weight: normal;&quot;&gt;Hấp thụ dòng tiền Outflows tín dụng của ngân hàng;&lt;br/&gt;nguồn gốc rủi ro nợ xấu NPL (chữ A), tài sản sinh lời IEA (chữ E) &amp; RSA (chữ S)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="360" x="3869" y="3770" as="geometry" />
+        </mxCell>
+        <mxCell id="G1_HEADER" parent="1" style="rounded=1;html=1;arcSize=10;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;align=center;fillColor=#1A237E;strokeColor=#283593;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="1.0 ⚖️ ĐÁNH ĐỔI RỦI RO - LỢI NHUẬN &amp; CHỈ SỐ TỶ SỐ&lt;br/&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;opacity:0.9;&quot;&gt;Risk-Return Tradeoff, Số tuyệt đối vs Tỷ số &amp; Đo lường cốt lõi&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="380" x="1400" y="3490" as="geometry" />
+        </mxCell>
+        <mxCell id="G1_CARD_1" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#EDE7F6;strokeColor=#5C6BC0;fontColor=#1A237E;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="1.1 🎯 NGUYÊN LÝ BẤT BIẾN: ĐÁNH ĐỔI RỦI RO - LỢI NHUẬN:&lt;br/&gt;• &lt;b&gt;Risk-Return Tradeoff:&lt;/b&gt; Lợi nhuận càng cao thì rủi ro đi kèm càng lớn; không có lợi nhuận vượt trội nào là phi rủi ro&lt;br/&gt;• &lt;b&gt;Nghệ thuật quản trị ngân hàng:&lt;/b&gt; Cân bằng tinh tế giữa tối đa hóa lợi nhuận cho cổ đông và bảo đảm an toàn hệ thống&lt;br/&gt;• &lt;b&gt;Hệ quả lệch pha:&lt;/b&gt; Quá mạo hiểm dẫn tới nguy cơ mất thanh khoản và vỡ nợ; quá thận trọng dẫn tới sụt giảm ROE và đánh mất thị phần" vertex="1">
+          <mxGeometry height="125" width="380" x="1400" y="3575" as="geometry" />
+        </mxCell>
+        <mxCell id="G1_CARD_2" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#EDE7F6;strokeColor=#5C6BC0;fontColor=#1A237E;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="1.2 📊 SỐ TUYỆT ĐỐI VS. CHỈ SỐ TỶ SỐ (RATIO ANALYSIS):&lt;br/&gt;• &lt;b&gt;Sự đánh lừa của số tuyệt đối:&lt;/b&gt; Phản ánh quy mô tài sản/lợi nhuận nhưng hoàn toàn bất lực trong phản ánh hiệu quả vận hành&lt;br/&gt;• &lt;b&gt;Ví dụ Vietcombank 2025:&lt;/b&gt; Tổng tài sản khổng lồ hơn 2,4 triệu tỷ đồng (~93 tỷ USD, ~1/5 GDP Việt Nam); tuy nhiên để đánh giá sức khỏe thực chất bắt buộc phải soi chiếu qua các chỉ số tỷ số&lt;br/&gt;• &lt;b&gt;Sức mạnh của tỷ số (Ratios):&lt;/b&gt; Chuẩn hóa quy mô, cho phép đối chuẩn khách quan giữa các ngân hàng có độ lớn chênh lệch" vertex="1">
+          <mxGeometry height="135" width="380" x="1400" y="3720" as="geometry" />
+        </mxCell>
+        <mxCell id="G1_CARD_3" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#EDE7F6;strokeColor=#5C6BC0;fontColor=#1A237E;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="1.3 📈 HAI TỶ SỐ ĐO LƯỜNG HIỆU QUẢ CỐT LÕI (ROA &amp; ROE):&lt;br/&gt;• &lt;b&gt;ROA (Return on Assets):&lt;/b&gt; LNST / Tổng tài sản bình quân; đo lường hiệu quả khai thác tài sản của ban điều hành&lt;br/&gt;• &lt;b&gt;ROE (Return on Equity):&lt;/b&gt; LNST / Vốn CSH bình quân; thước đo mức sinh lời dành cho cổ đông ngân hàng&lt;br/&gt;• &lt;b&gt;Mô hình đòn bẩy vốn (DuPont):&lt;/b&gt; &lt;i&gt;ROE = ROA × Đòn bẩy vốn (Equity Multiplier EM = Assets / Equity)&lt;/i&gt;; đòn bẩy nợ cao giúp khuếch đại ROE nhưng đẩy ngân hàng vào vùng nguy hiểm" vertex="1">
+          <mxGeometry height="125" width="380" x="1400" y="3875" as="geometry" />
+        </mxCell>
+        <mxCell id="G1_CARD_4" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#EDE7F6;strokeColor=#5C6BC0;fontColor=#1A237E;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="1.4 🔬 BA TRỤ CỘT PHÂN TÍCH TỶ SỐ TÀI CHÍNH TOÀN DIỆN:&lt;br/&gt;• &lt;b&gt;Phân tích Xu hướng (Trend Analysis):&lt;/b&gt; Theo dõi chuyển dịch các tỷ số qua chuỗi thời gian 3-5 năm để nhận diện chiều hướng phát triển&lt;br/&gt;• &lt;b&gt;Phân tích Đối chuẩn (Benchmarking):&lt;/b&gt; So sánh đối chiếu với nhóm ngân hàng cùng quy mô (Peer Group) và trung bình toàn ngành&lt;br/&gt;• &lt;b&gt;Cấu trúc Bảng CĐKT &amp; Khẩu vị rủi ro:&lt;/b&gt; Bóc tách cơ cấu tài sản - nguồn vốn để hiểu sâu tận gốc rễ chiến lược và mức độ chấp nhận rủi ro" vertex="1">
+          <mxGeometry height="135" width="380" x="1400" y="4020" as="geometry" />
+        </mxCell>
+        <mxCell id="G2_HEADER" parent="1" style="rounded=1;html=1;arcSize=10;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;align=center;fillColor=#880E4F;strokeColor=#AD1457;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="2.0 🛡️ CHỮ C (AN TOÀN VỐN) &amp; CHỮ A (CHẤT LƯỢNG TÀI SẢN)&lt;br/&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;opacity:0.9;&quot;&gt;Capital Adequacy (CAR), Ẩn dụ Ăn kem - Chạy bộ &amp; Asset Quality (NPL)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="390" x="1840" y="3490" as="geometry" />
+        </mxCell>
+        <mxCell id="G2_CARD_1" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FCE4EC;strokeColor=#C2185B;fontColor=#880E4F;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="2.1 🏛️ CHỮ C: VỐN TỰ CÓ &amp; RWA (CAR = CAPITAL / RWA):&lt;br/&gt;• &lt;b&gt;Vốn tự có (Regulatory Capital):&lt;/b&gt; &quot;Tấm đệm&quot; an toàn hấp thụ tổn thất; gồm Vốn cấp 1 (Tier 1 core capital) và Vốn cấp 2 (Tier 2 nợ thứ cấp)&lt;br/&gt;• &lt;b&gt;Mẫu số RWA (Risk-Weighted Assets):&lt;/b&gt; Tổng tài sản có rủi ro nội bảng và ngoại bảng nhân hệ số rủi ro w_i&lt;br/&gt;• &lt;b&gt;Ví dụ &quot;Ly nước mía&quot; của giảng viên:&lt;/b&gt; Cam kết ngoại bảng (bảo lãnh, L/C) như lời hứa bao 70 bạn ly nước mía 10k (tổng 700k) khi ví chỉ có 500k; chưa phát sinh dòng tiền ra nhưng là rủi ro tiềm tàng, khi kích hoạt biến thành nghĩa vụ chi trả ngay ➔ Phải tính vào RWA" vertex="1">
+          <mxGeometry height="135" width="390" x="1840" y="3575" as="geometry" />
+        </mxCell>
+        <mxCell id="G2_CARD_2" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FCE4EC;strokeColor=#C2185B;fontColor=#880E4F;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="2.2 🍦 ẨN DỤ &quot;ĂN KEM - CHẠY BỘ&quot; &amp; CHUẨN MỰC PHÁP LÝ CAR:&lt;br/&gt;• &lt;b&gt;Triết lý &quot;Ăn kem - Chạy bộ&quot;:&lt;/b&gt; Không cấm kinh doanh rủi ro cao kiếm lời lớn (ăn kem), nhưng luật chơi là ăn 1 cây kem phải chạy bộ 2 km (cổ đông phải nộp thêm vốn tự có tương ứng vào tử số)&lt;br/&gt;• &lt;b&gt;Cơ chế tự động:&lt;/b&gt; Trừng phạt và điều tiết rủi ro bằng chính túi tiền của cổ đông&lt;br/&gt;• &lt;b&gt;Chuẩn mực CAR:&lt;/b&gt; Basel quy định CAR ≥ 8%; Việt Nam (Thông tư 14/2025/TT-NHNN) quy định tỷ lệ tối thiểu là 8%&lt;br/&gt;• &lt;b&gt;Thách thức bất đối xứng thông tin:&lt;/b&gt; Chuyên gia bên ngoài dùng Proxy Indicator (Vốn CSH / Tổng tài sản) để đo nhanh mức đòn bẩy" vertex="1">
+          <mxGeometry height="135" width="390" x="1840" y="3730" as="geometry" />
+        </mxCell>
+        <mxCell id="G2_CARD_3" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FCE4EC;strokeColor=#C2185B;fontColor=#880E4F;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="2.3 🔍 CHỮ A: CHẤT LƯỢNG TÀI SẢN - KHÍA CẠNH KHÓ PHÂN TÍCH NHẤT:&lt;br/&gt;• &lt;b&gt;Bản chất khó phân tích:&lt;/b&gt; Thông tin nội bộ khoản vay bị che khuất; báo cáo tài chính chỉ cung cấp số liệu dư nợ thô&lt;br/&gt;• &lt;b&gt;Tập trung theo ngành/địa bàn:&lt;/b&gt; Đánh giá mức độ tập trung rủi ro tín dụng vào các lĩnh vực nhạy cảm chu kỳ (BĐS, xây dựng, BOT hạ tầng)&lt;br/&gt;• &lt;b&gt;Tỷ lệ nợ xấu (NPL Ratio):&lt;/b&gt; Nợ nhóm 3, 4, 5 / Tổng dư nợ; ngưỡng an toàn chuẩn &lt; 3%; chỉ số phản ánh mức độ suy thoái chất lượng tín dụng" vertex="1">
+          <mxGeometry height="135" width="390" x="1840" y="3885" as="geometry" />
+        </mxCell>
+        <mxCell id="G2_CARD_4" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FCE4EC;strokeColor=#C2185B;fontColor=#880E4F;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="2.4 🛡️ DỰ PHÒNG RỦI RO TÍN DỤNG &amp; TỶ LỆ BAO PHỦ NỢ XẤU (LLR):&lt;br/&gt;• &lt;b&gt;Tỷ lệ dự phòng RRTD / Dư nợ:&lt;/b&gt; Chi phí trích lập dự phòng cụ thể và chung bảo đảm bù đắp tổn thất dự kiến khi khách hàng vỡ nợ&lt;br/&gt;• &lt;b&gt;Tỷ lệ bao phủ nợ xấu (LLR = Dự phòng / NPL):&lt;/b&gt; Thước đo độ dày bộ đệm phòng thủ tài chính; LLR &gt; 100% (thậm chí 200% như Vietcombank) bảo đảm năng lực xóa nợ xấu mà không tổn hại vốn tự có&lt;br/&gt;• &lt;b&gt;Đánh đổi lợi nhuận:&lt;/b&gt; Trích lập dự phòng cao làm giảm lợi nhuận trước mắt nhưng bảo toàn sự sống còn bền vững dài hạn" vertex="1">
+          <mxGeometry height="125" width="390" x="1840" y="4040" as="geometry" />
+        </mxCell>
+        <mxCell id="G3_HEADER" parent="1" style="rounded=1;html=1;arcSize=10;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;align=center;fillColor=#004D40;strokeColor=#00695C;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="3.0 💼 CHỮ M (LÀNH MẠNH QUẢN TRỊ) &amp; CHỮ E (HIỆU QUẢ THU NHẬP)&lt;br/&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;opacity:0.9;&quot;&gt;Management Soundness (CIR) &amp; Earnings (ROA, ROE, NIM, NIIR, Spread)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="400" x="2290" y="3490" as="geometry" />
+        </mxCell>
+        <mxCell id="G3_CARD_1" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F2F1;strokeColor=#26A69A;fontColor=#004D40;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="3.1 🧠 CHỮ M: ĐÁNH GIÁ NĂNG LỰC BỘ NÃO ĐIỀU HÀNH &amp; TỶ LỆ CHI PHÍ (CIR):&lt;br/&gt;• &lt;b&gt;Tiếp cận kép:&lt;/b&gt; Đánh giá định tính (văn hóa rủi ro, chiến lược, kiểm soát nội bộ) kết hợp định lượng hiệu năng đầu ra&lt;br/&gt;• &lt;b&gt;Tỷ lệ chi phí (CIR - Cost-to-Income Ratio):&lt;/b&gt; &lt;i&gt;Tổng chi phí hoạt động / Tổng thu nhập hoạt động × 100&lt;/i&gt;&lt;br/&gt;• &lt;b&gt;Ý nghĩa kinh tế:&lt;/b&gt; Thước đo hiệu quả quản trị chi phí; CIR càng thấp (chuẩn tốt 30% - 40%) thể hiện ngân hàng vận hành tinh gọn, ứng dụng chuyển đổi số thành công" vertex="1">
+          <mxGeometry height="125" width="400" x="2290" y="3575" as="geometry" />
+        </mxCell>
+        <mxCell id="G3_CARD_2" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F2F1;strokeColor=#26A69A;fontColor=#004D40;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="3.2 👥 NĂNG SUẤT NHÂN VIÊN &amp; TỐC ĐỘ MỞ RỘNG MẠNG LƯỚI:&lt;br/&gt;• &lt;b&gt;Thu nhập trên một nhân viên:&lt;/b&gt; Lợi nhuận trước thuế / Tổng số lao động; phản ánh hiệu suất lao động và mức độ tự động hóa quy trình nghiệp vụ&lt;br/&gt;• &lt;b&gt;Tốc độ mở rộng định chế (Chi nhánh/PGD):&lt;/b&gt; Đánh đổi giữa mở rộng thị phần vật lý với áp lực chi phí cố định mặt bằng/nhân sự&lt;br/&gt;• &lt;b&gt;Cảnh báo quản trị:&lt;/b&gt; Mở rộng mạng lưới quá nóng trong khi năng lực kiểm soát nội bộ không theo kịp dễ dẫn tới sai phạm đạo đức và rủi ro hoạt động" vertex="1">
+          <mxGeometry height="125" width="400" x="2290" y="3720" as="geometry" />
+        </mxCell>
+        <mxCell id="G3_CARD_3" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F2F1;strokeColor=#26A69A;fontColor=#004D40;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="3.3 💰 CHỮ E: CƠ CẤU THU NHẬP LÃI (NII) VS. THU NHẬP NGOÀI LÃI:&lt;br/&gt;• &lt;b&gt;Thu nhập từ Lãi (NII):&lt;/b&gt; Thu nhập tín dụng truyền thống (Lãi cho vay - Chi phí trả lãi tiền gửi); chiếm 70% - 80% tổng thu nhập ngân hàng VN&lt;br/&gt;• &lt;b&gt;Thu nhập ngoài lãi (Non-interest income):&lt;/b&gt; Phí dịch vụ thanh toán, ngân quỹ, kinh doanh ngoại hối, đầu tư chứng khoán, bảo hiểm (Bancassurance)&lt;br/&gt;• &lt;b&gt;Xu hướng dịch chuyển:&lt;/b&gt; Tăng tỷ trọng thu nhập ngoài lãi giúp đa dạng hóa nguồn thu, giảm phụ thuộc vào hạn mức tăng trưởng tín dụng (Room) của NHNN" vertex="1">
+          <mxGeometry height="125" width="400" x="2290" y="3865" as="geometry" />
+        </mxCell>
+        <mxCell id="G3_CARD_4" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F2F1;strokeColor=#26A69A;fontColor=#004D40;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="3.4 📊 NĂM CHỈ TIÊU TÀI CHÍNH CHỮ E CỐT LÕI:&lt;br/&gt;• &lt;b&gt;ROA (%):&lt;/b&gt; LNST / Tổng tài sản sinh lời BQ (chuẩn Mỹ &gt; 1%, VN 1% - 2%)&lt;br/&gt;• &lt;b&gt;ROE (%):&lt;/b&gt; LNST / Vốn CSH bình quân (chuẩn tốt 15% - 20%)&lt;br/&gt;• &lt;b&gt;NIM (Net Interest Margin %):&lt;/b&gt; &lt;i&gt;Thu nhập lãi thuần / Tổng tài sản sinh lời BQ (IEA)&lt;/i&gt;; đo hiệu quả tín dụng cốt lõi (VN thường 3% - 4.5%)&lt;br/&gt;• &lt;b&gt;NIIR (%):&lt;/b&gt; Thu nhập lãi thuần / Tổng thu nhập thuần; đo mức độ phụ thuộc tín dụng&lt;br/&gt;• &lt;b&gt;Earning Spread (%):&lt;/b&gt; Lãi suất sinh lời đầu ra BQ - Lãi suất chi phí đầu vào BQ" vertex="1">
+          <mxGeometry height="145" width="400" x="2290" y="4010" as="geometry" />
+        </mxCell>
+        <mxCell id="G4_HEADER" parent="1" style="rounded=1;html=1;arcSize=10;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;align=center;fillColor=#006064;strokeColor=#00838F;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="4.0 💧 CHỮ L (PHÂN TÍCH KHẢ NĂNG THANH KHOẢN &amp; LDR)&lt;br/&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;opacity:0.9;&quot;&gt;Inflows vs Outflows, LDR Truyền thống, LDR Mở rộng &amp; Xung đột mục tiêu&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="390" x="2750" y="3490" as="geometry" />
+        </mxCell>
+        <mxCell id="G4_CARD_1" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F7FA;strokeColor=#00ACC1;fontColor=#006064;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="4.1 🌊 BẢN CHẤT DÒNG TIỀN NGÂN HÀNG &amp; TÀI SẢN THANH KHOẢN:&lt;br/&gt;• &lt;b&gt;Dòng tiền hai chiều:&lt;/b&gt; Dòng tiền vào (Inflows - huy động tiền gửi) vs Dòng tiền ra (Outflows - khách rút tiền &amp; giải ngân cho vay)&lt;br/&gt;• &lt;b&gt;Mục tiêu kép:&lt;/b&gt; Đáp ứng nghĩa vụ chi trả tức thời và các cam kết tín dụng bất khả kháng với chi phí vốn tối ưu nhất&lt;br/&gt;• &lt;b&gt;Tỷ lệ tài sản thanh khoản:&lt;/b&gt; (Tiền mặt &amp; tương đương + Tiền gửi NHNN) / Tổng tài sản; đo lường tuyến phòng thủ thanh khoản tức thì đầu tiên" vertex="1">
+          <mxGeometry height="125" width="390" x="2750" y="3575" as="geometry" />
+        </mxCell>
+        <mxCell id="G4_CARD_2" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F7FA;strokeColor=#00ACC1;fontColor=#006064;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="4.2 ⚖️ TỶ LỆ LDR TRUYỀN THỐNG (LOAN TO DEPOSIT RATIO) &amp; BÀI HỌC VN 2025:&lt;br/&gt;• &lt;b&gt;Công thức LDR truyền thống:&lt;/b&gt; Tổng dư nợ cho vay / Tiền gửi khách hàng × 100&lt;br/&gt;• &lt;b&gt;Nguyên tắc loại trừ:&lt;/b&gt; Tiền gửi liên ngân hàng (thị trường 2) KHÔNG được tính vào mẫu số do tính chất ngắn hạn, biến động mạnh&lt;br/&gt;• &lt;b&gt;Thực tiễn VN 2025:&lt;/b&gt;&lt;br/&gt;  + &lt;i&gt;Khối Big 4 (Vietcombank...):&lt;/i&gt; LDR &lt; 100% (90% - 95%) nhờ ưu thế huy động tiền gửi dân cư dồi dào, uy tín thương hiệu vững chắc&lt;br/&gt;  + &lt;i&gt;Khối NHTMCP tư nhân:&lt;/i&gt; LDR truyền thống vọt lên rất cao (&gt; 100%), chịu áp lực thiếu hụt tiền gửi tự nhiên" vertex="1">
+          <mxGeometry height="160" width="390" x="2750" y="3720" as="geometry" />
+        </mxCell>
+        <mxCell id="G4_CARD_3" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F7FA;strokeColor=#00ACC1;fontColor=#006064;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="4.3 🔄 TỶ LỆ LDR MỞ RỘNG &amp; CHI PHÍ VỐN THAY THẾ:&lt;br/&gt;• &lt;b&gt;Công thức LDR mở rộng:&lt;/b&gt; &lt;i&gt;Cho vay / (Tiền gửi KH + Tiền gửi &amp; Vay TCTD khác + Phát hành GTCG) × 100&lt;/i&gt;&lt;br/&gt;• &lt;b&gt;Hệ quả tính toán:&lt;/b&gt; Kéo giảm tỷ lệ LDR của nhóm ngân hàng tư nhân xuống mức an toàn hơn (77% - 90%)&lt;br/&gt;• &lt;b&gt;Cái giá phải trả:&lt;/b&gt; Vốn liên ngân hàng và phát hành giấy tờ có giá (trái phiếu ngân hàng) có chi phí lãi suất cao hơn nhiều so với tiền gửi dân cư và kém bền vững khi thị trường biến động" vertex="1">
+          <mxGeometry height="135" width="390" x="2750" y="3897" as="geometry" />
+        </mxCell>
+        <mxCell id="G4_CARD_4" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#E0F7FA;strokeColor=#00ACC1;fontColor=#006064;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="4.4 ⚔️ XUNG ĐỘT MỤC TIÊU: AN TOÀN XÃ HỘI VS. TỐI ƯU HÓA CỔ ĐÔNG:&lt;br/&gt;• &lt;b&gt;Góc nhìn Cơ quan Quản lý (NHNN):&lt;/b&gt; Ưu tiên An toàn xã hội; muốn ngân hàng giữ thanh khoản dồi dào, LDR thấp để triệt tiêu nguy cơ sụp đổ dây chuyền&lt;br/&gt;• &lt;b&gt;Góc nhìn Cổ đông ngân hàng:&lt;/b&gt; Ưu tiên Tối đa hóa lợi nhuận; muốn tận dụng tối đa nguồn vốn để cho vay, đẩy LDR lên cao nhằm tăng NIM và ROE&lt;br/&gt;• &lt;b&gt;Bài toán điều hòa:&lt;/b&gt; Thiết lập trần LDR 85% và khung LCR/NSFR cân bằng hai mục tiêu đối lập" vertex="1">
+          <mxGeometry height="125" width="390" x="2750" y="4051" as="geometry" />
+        </mxCell>
+        <mxCell id="G5_HEADER" parent="1" style="rounded=1;html=1;arcSize=10;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;fontFamily=Helvetica;align=center;fillColor=#BF360C;strokeColor=#D84315;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="5.0 📡 CHỮ S (ĐỘ NHẠY RỦI RO THỊ TRƯỜNG) &amp; QUẢN TRỊ LÃI SUẤT&lt;br/&gt;&lt;span style=&quot;font-size:10px;font-weight:normal;opacity:0.9;&quot;&gt;Rủi ro Thị trường, Mô hình Khe hở GAP (RSA - RSL) &amp; Asymmetric Adjustment&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="410" x="3200" y="3490" as="geometry" />
+        </mxCell>
+        <mxCell id="G5_CARD_1" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FBE9E7;strokeColor=#FF7043;fontColor=#BF360C;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="5.1 🌐 PHẠM VI RỦI RO THỊ TRƯỜNG &amp; TRẠNG THÁI NGOẠI TỆ MỞ (NOP):&lt;br/&gt;• &lt;b&gt;Khái niệm:&lt;/b&gt; Rủi ro phát sinh do biến động bất lợi của giá cả thị trường, lãi suất và tỷ giá làm sụt giảm giá trị tài sản và lợi nhuận&lt;br/&gt;• &lt;b&gt;Rủi ro tỷ giá:&lt;/b&gt; Tác động mạnh đến ngân hàng có Trạng thái ngoại tệ mở (Net Open Position) lớn; ảnh hưởng trực tiếp đến khách hàng vay ngoại tệ&lt;br/&gt;• &lt;b&gt;Rủi ro giá tài sản:&lt;/b&gt; Biến động giá cổ phiếu, trái phiếu chính phủ/doanh nghiệp nắm giữ trên Trading Book hạch toán theo giá thị trường" vertex="1">
+          <mxGeometry height="125" width="410" x="3200" y="3575" as="geometry" />
+        </mxCell>
+        <mxCell id="G5_CARD_2" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FBE9E7;strokeColor=#FF7043;fontColor=#BF360C;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="5.2 📊 RỦI RO LÃI SUẤT (IRRBB) &amp; MÔ HÌNH KHE HỞ LÃI SUẤT (GAP):&lt;br/&gt;• &lt;b&gt;Bản chất:&lt;/b&gt; Rủi ro lãi suất trên Sổ ngân hàng (IRRBB) phát sinh do sự lệch pha kỳ hạn giữa tài sản có và tài sản nợ&lt;br/&gt;• &lt;b&gt;Tài sản nhạy cảm lãi suất (RSA):&lt;/b&gt; Cho vay, đầu tư có lãi suất thả nổi hoặc sắp đến hạn tái định giá&lt;br/&gt;• &lt;b&gt;Nợ nhạy cảm lãi suất (RSL):&lt;/b&gt; Tiền gửi, tiền vay có lãi suất thả nổi hoặc sắp đến hạn trả&lt;br/&gt;• &lt;b&gt;Khe hở lãi suất GAP = RSA - RSL;&lt;/b&gt; quyết định việc lãi suất thị trường tăng hay giảm sẽ tác động tích cực hay tiêu cực đến ngân hàng" vertex="1">
+          <mxGeometry height="135" width="410" x="3200" y="3720" as="geometry" />
+        </mxCell>
+        <mxCell id="G5_CARD_3" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FBE9E7;strokeColor=#FF7043;fontColor=#BF360C;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="5.3 🧮 BÀI TOÁN THỰC NGHIỆM TỪ BÀI GIẢNG: LÃI SUẤT TĂNG HAY GIẢM LÀ TỐT?&lt;br/&gt;• &lt;b&gt;Trường hợp 1: RSA &gt; RSL (Dư nợ cho vay 100đ, Tiền gửi 70đ, Vốn 30đ):&lt;/b&gt;&lt;br/&gt;  + Khi lãi suất 7%: Thu nhập cho vay 7đ - Chi phí trả lãi 4.9đ = Lợi nhuận 2.1đ&lt;br/&gt;  + Khi lãi suất TĂNG lên 8%: Thu nhập 8đ - Chi phí 5.6đ = Lợi nhuận 2.4đ&lt;br/&gt;  + Kết luận: Khi RSA &gt; RSL, Lãi suất TĂNG là tin tốt vì thu nhập tăng nhanh hơn chi phí&lt;br/&gt;• &lt;b&gt;Trường hợp 2: RSA &lt; RSL (Cho vay 60đ, Tiền gửi 70đ, Vốn 30đ - dự trữ nhiều tiền mặt):&lt;/b&gt;&lt;br/&gt;  + Khi lãi suất 7%: 4.2đ - 4.9đ = -0.7đ (Lỗ)&lt;br/&gt;  + Khi lãi suất GIẢM xuống 6%: 3.6đ - 4.2đ = -0.6đ (Giảm lỗ)&lt;br/&gt;  + Kết luận: Khi RSA &lt; RSL, Lãi suất GIẢM mới là tin tốt" vertex="1">
+          <mxGeometry height="165" width="410" x="3200" y="3875" as="geometry" />
+        </mxCell>
+        <mxCell id="G5_CARD_4" parent="1" style="rounded=1;html=1;arcSize=8;fontSize=11;align=left;spacingLeft=8;spacingRight=8;fontFamily=Helvetica;fillColor=#FBE9E7;strokeColor=#FF7043;fontColor=#BF360C;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="5.4 ⚡ ĐIỀU CHỈNH KHÔNG ĐỒNG BỘ &amp; BÀI TOÁN CHIẾN LƯỢC ĐẦU TƯ:&lt;br/&gt;• &lt;b&gt;Sự điều chỉnh không đồng bộ (Asymmetric Adjustment):&lt;/b&gt; Khi thanh khoản căng thẳng, lãi suất huy động vọt tăng ngay, trong khi lãi suất cho vay bị ghìm lại do hợp đồng kỳ hạn ➔ Bóp nghẹt biên lãi thuần NIM&lt;br/&gt;• &lt;b&gt;Tình huống chiến lược cuối chương:&lt;/b&gt;&lt;br/&gt;  + &lt;i&gt;Ngân hàng A:&lt;/i&gt; Thận trọng, CAR vượt chuẩn, LDR thấp, ROE khiêm tốn&lt;br/&gt;  + &lt;i&gt;Ngân hàng B:&lt;/i&gt; Tối đa hóa ROE, đòn bẩy vốn cao, LDR sát trần&lt;br/&gt;  + &lt;i&gt;Lựa chọn nhà đầu tư:&lt;/i&gt; Khi chu kỳ vĩ mô bước vào thắt chặt tiền tệ, Ngân hàng A là lựa chọn an toàn bền vững vượt qua giông bão" vertex="1">
+          <mxGeometry height="135" width="410" x="3200" y="4061" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE_ROOT_G1" edge="1" parent="1" source="E3_ROOT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;curved=0;strokeColor=#1A237E;exitX=0.1;exitY=1;entryX=0.5;entryY=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G1_HEADER" value="1.0 Đánh đổi Rủi ro - Lợi nhuận">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2542" y="3440.17" />
+              <mxPoint x="1590" y="3440.17" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_ROOT_G2" edge="1" parent="1" source="E3_ROOT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;curved=0;strokeColor=#880E4F;exitX=0.3;exitY=1;entryX=0.5;entryY=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G2_HEADER" value="2.0 An toàn vốn (C) &amp; Tài sản (A)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE_ROOT_G3" edge="1" parent="1" source="E3_ROOT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;curved=0;strokeColor=#004D40;exitX=0.5;exitY=1;entryX=0.5;entryY=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G3_HEADER" value="3.0 Quản trị (M) &amp; Thu nhập (E)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2790" y="3475.17" />
+              <mxPoint x="2490" y="3475.17" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_ROOT_G4" edge="1" parent="1" source="E3_ROOT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;curved=0;strokeColor=#006064;exitX=0.7;exitY=1;entryX=0.5;entryY=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G4_HEADER" value="4.0 Thanh khoản (L) &amp; LDR">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE_ROOT_G5" edge="1" parent="1" source="E3_ROOT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;curved=0;strokeColor=#BF360C;exitX=0.9;exitY=1;entryX=0.5;entryY=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G5_HEADER" value="5.0 Rủi ro thị trường (S) &amp; GAP">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE_G1_C1" edge="1" parent="1" source="G1_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#1A237E;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G1_CARD_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE_G1_C2" edge="1" parent="1" points="[(1400, 3560), (1370, 3560), (1370, 3787), (1400, 3787)]" source="G1_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#1A237E;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G1_CARD_2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1590" y="3560" />
+              <mxPoint x="1370" y="3560" />
+              <mxPoint x="1370" y="3787" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G1_C3" edge="1" parent="1" points="[(1400, 3560), (1370, 3560), (1370, 3937), (1400, 3937)]" source="G1_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#1A237E;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G1_CARD_3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1590" y="3560" />
+              <mxPoint x="1370" y="3560" />
+              <mxPoint x="1370" y="3937" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G1_C4" edge="1" parent="1" points="[(1400, 3560), (1370, 3560), (1370, 4087), (1400, 4087)]" source="G1_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#1A237E;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G1_CARD_4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1590" y="3560" />
+              <mxPoint x="1370" y="3560" />
+              <mxPoint x="1370" y="4087" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G2_C1" edge="1" parent="1" source="G2_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#880E4F;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G2_CARD_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE_G2_C2" edge="1" parent="1" points="[(1840, 3560), (1810, 3560), (1810, 3797), (1840, 3797)]" source="G2_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#880E4F;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G2_CARD_2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2035" y="3560" />
+              <mxPoint x="1810.03" y="3560" />
+              <mxPoint x="1810.03" y="3797.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G2_C3" edge="1" parent="1" points="[(1840, 3560), (1810, 3560), (1810, 3952), (1840, 3952)]" source="G2_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#880E4F;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G2_CARD_3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2035" y="3560" />
+              <mxPoint x="1810.03" y="3560" />
+              <mxPoint x="1810.03" y="3952" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G2_C4" edge="1" parent="1" points="[(1840, 3560), (1810, 3560), (1810, 4102), (1840, 4102)]" source="G2_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#880E4F;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G2_CARD_4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2035" y="3560" />
+              <mxPoint x="1810.03" y="3560" />
+              <mxPoint x="1810.03" y="4102" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G3_C1" edge="1" parent="1" source="G3_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#004D40;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G3_CARD_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE_G3_C2" edge="1" parent="1" points="[(2290, 3560), (2260, 3560), (2260, 3782), (2290, 3782)]" source="G3_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#004D40;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G3_CARD_2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2490" y="3560" />
+              <mxPoint x="2260" y="3560" />
+              <mxPoint x="2260" y="3782" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G3_C3" edge="1" parent="1" points="[(2290, 3560), (2260, 3560), (2260, 3927), (2290, 3927)]" source="G3_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#004D40;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G3_CARD_3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2490" y="3560" />
+              <mxPoint x="2260" y="3560" />
+              <mxPoint x="2260" y="3927" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G3_C4" edge="1" parent="1" points="[(2290, 3560), (2260, 3560), (2260, 4082), (2290, 4082)]" source="G3_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#004D40;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G3_CARD_4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2490" y="3560" />
+              <mxPoint x="2260" y="3560" />
+              <mxPoint x="2260" y="4082" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G4_C1" edge="1" parent="1" source="G4_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#006064;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G4_CARD_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE_G4_C2" edge="1" parent="1" points="[(2750, 3560), (2720, 3560), (2720, 3787), (2750, 3787)]" source="G4_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#006064;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G4_CARD_2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2945.03" y="3560.03" />
+              <mxPoint x="2720" y="3560.03" />
+              <mxPoint x="2720" y="3800.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G4_C3" edge="1" parent="1" points="[(2750, 3560), (2720, 3560), (2720, 3942), (2750, 3942)]" source="G4_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#006064;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G4_CARD_3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2945.03" y="3560.03" />
+              <mxPoint x="2720" y="3560.03" />
+              <mxPoint x="2720" y="3964.52" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G4_C4" edge="1" parent="1" points="[(2750, 3560), (2720, 3560), (2720, 4092), (2750, 4092)]" source="G4_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#006064;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G4_CARD_4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2945.03" y="3560.03" />
+              <mxPoint x="2720.07" y="3560.03" />
+              <mxPoint x="2720.07" y="4113.48" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G5_C1" edge="1" parent="1" source="G5_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G5_CARD_1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE_G5_C2" edge="1" parent="1" points="[(3200, 3560), (3170, 3560), (3170, 3787), (3200, 3787)]" source="G5_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G5_CARD_2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3405" y="3560" />
+              <mxPoint x="3170" y="3560" />
+              <mxPoint x="3170" y="3787" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G5_C3" edge="1" parent="1" points="[(3200, 3560), (3170, 3560), (3170, 3947), (3200, 3947)]" source="G5_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G5_CARD_3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3405" y="3560" />
+              <mxPoint x="3170" y="3560" />
+              <mxPoint x="3170" y="3947" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G5_C4" edge="1" parent="1" points="[(3200, 3560), (3170, 3560), (3170, 4107), (3200, 4107)]" source="G5_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G5_CARD_4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3405" y="3560" />
+              <mxPoint x="3170" y="3560" />
+              <mxPoint x="3170" y="4107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_E1_E3" edge="1" parent="1" source="EXT_E1_NHNN" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#37474F;dashed=1;exitX=0.5;exitY=0;entryX=0;entryY=0.5;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="E3_ROOT" value="Giám sát CAMELS, CAR ≥ 8%, trần LDR 85% &amp; LoLR">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="3397.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_E6_G4" edge="1" parent="1" points="[(1320, 3722), (2100, 3722), (2100, 3600), (2750, 3600)]" source="EXT_E6_SAFETY_NET" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#4E342E;dashed=1;exitX=0;exitY=0.5;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G4_HEADER" value="Bảo hiểm tiền gửi bảo vệ thanh khoản">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="913.33" y="3722.5" />
+              <mxPoint x="913.33" y="3346.17" />
+              <mxPoint x="3122" y="3346.17" />
+              <mxPoint x="3122" y="3446" />
+              <mxPoint x="3042.5" y="3446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_E2_G4" edge="1" parent="1" points="[(1320, 3922), (1350, 3922), (1350, 4200), (2700, 4200), (2700, 3637), (2750, 3637)]" source="EXT_E2_MOF" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#212121;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G4_CARD_1" value="Cung ứng TPCP HQLA thanh khoản cao">
+          <mxGeometry relative="1" x="-0.0921" y="7" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="1320" y="3922" />
+              <mxPoint x="1350" y="3922" />
+              <mxPoint x="1350" y="4200" />
+              <mxPoint x="2700" y="4200" />
+              <mxPoint x="2700" y="3637" />
+              <mxPoint x="2750" y="3637" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_E4_G4" edge="1" parent="1" points="[(3670, 3595), (3160, 3595), (3160, 3637), (3140, 3637)]" source="EXT_E4_SURPLUS" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#1B5E20;dashed=1;exitX=0.25;exitY=0;entryX=1;entryY=0.5;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G4_CARD_1" value="Dòng tiền Inflows tiền gửi &amp; rút tiền">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3922.06" y="3406" />
+              <mxPoint x="3160.06" y="3406" />
+              <mxPoint x="3160.06" y="3637.53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G2_E5" edge="1" parent="1" points="[(2230, 3952), (2250, 3952), (2250, 4220), (3640, 4220), (3640, 3815), (3670, 3815)]" source="G2_CARD_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;dashed=1;exitX=1;exitY=0.5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="EXT_E5_DEFICIT" value="Dư nợ tín dụng &amp; Rủi ro nợ xấu NPL">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2250" y="3952.5" />
+              <mxPoint x="2250" y="4220" />
+              <mxPoint x="4049" y="4220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_G5_E5" edge="1" parent="1" source="G5_CARD_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#BF360C;dashed=1;exitX=1;exitY=0.75;entryX=0;entryY=0.5;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="EXT_E5_DEFICIT" value="Tài sản nhạy cảm lãi suất RSA cho vay">
+          <mxGeometry relative="1" x="0.0726" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3610" y="3815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE_E4_G5" edge="1" parent="1" points="[(3670, 3613), (3630, 3613), (3630, 3947), (3610, 3947)]" source="EXT_E4_SURPLUS" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;strokeColor=#1B5E20;dashed=1;exitX=0.25;exitY=1;entryX=1;entryY=0.5;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" target="G5_CARD_3" value="Nợ nhạy cảm lãi suất RSL tiền gửi">
+          <mxGeometry relative="1" x="-0.3546" y="-13" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="3922.06" y="3676.82" />
+              <mxPoint x="3630.06" y="3676.82" />
+              <mxPoint x="3630.06" y="3957.53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
